@@ -1,0 +1,37 @@
+div {
+    box-sizing: border-box;
+    outline:1px solid black;
+  }
+
+.header {
+
+}
+
+.nav {
+
+}
+
+.content {
+
+}
+
+.user {
+    float: left;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    height: 40px;
+}
+
+.title {
+    height: 140px;
+}
+
+.icons {
+
+}

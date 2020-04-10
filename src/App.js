@@ -2,35 +2,15 @@
 
 // Importaciones
 import React from 'react';      // React
+import Structure from './structure/Structure';   
 
-class Toggle extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {isToggleOn: true};
-
-    // Este enlace es necesario para hacer que `this` funcione en el callback
-    this.evento = this.evento.bind(this);
-  }
-
-  evento() {
-    this.setState(state => ({
-      isToggleOn: !state.isToggleOn
-    }));
-  }
-
+class App extends React.Component {
   render() {
     return (
-      <button onClick={this.evento}>
-        {this.state.isToggleOn ? 'ON' : 'OFF'}
-      </button>
+      <Structure/>
     );
   }
 }
 
-// Función de contenido del componente base
-function App() {
-  return <Toggle></Toggle>;
-}
-
 // Exportaciones
-export default App;     // Contendio del componente base
+export default App;   
