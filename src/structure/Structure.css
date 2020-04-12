@@ -43,14 +43,14 @@ body {
     background: var(--color5);
 	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
     box-shadow: 9px 9px 7px -4px var(--color1);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 0px 10px;
 }
 
 .tabs {
     margin-top: -16px;
     height: 75px;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .tab {
@@ -59,10 +59,12 @@ body {
     padding: 10px;
     margin-left: 15px;
     text-align:center;
+    font-size: 12px;
+    width: 120px;
     background: var(--color2);
 	background: radial-gradient(circle, var(--color2) 0%, var(--color2) 100%);
-    box-shadow: 9px 9px 7px -4px var(--color1);
-    border-radius: 0px 0px 0px 10px;
+    box-shadow: 5px 4px 4px 0px var(--color1);
+    border-radius: 0px 0px 10px 10px;
     
 }
 
@@ -96,6 +98,7 @@ body {
 
 .content {
     height: 400px;
+    margin-top: -7px;
     background: var(--color5);
 	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
     box-shadow: 9px 9px 7px -4px var(--color1);

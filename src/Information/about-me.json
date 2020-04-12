@@ -1,0 +1,76 @@
+[
+    {
+        "type": "characteristics",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "subtitles": ["subtitulo 1", "subtitulo 2", "subtitulo N"],
+            "subdescriptions": ["Descripción 1", "Descripción 2", "Descripción N"]
+        }
+    },
+    {
+        "type": "description",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción"
+        }
+    },
+    {
+        "type": "description-image",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "image": "Imagen"
+        }
+    },
+    {
+        "type": "description-images",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "subtitles": ["Subtitulo 1", "Subtitulo 2", "Subtitulo N"],
+            "subdescriptions": ["Descripción 1", "Descripción 2", "Descripción N"],
+            "images": ["Imagen 1", "Imagen 2", "Imagen N"]
+        }
+    },
+    {
+        "type": "images",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "images": ["Imagen 1", "Imagen 2", "Imagen N"]
+        }
+    },
+    {
+        "type": "presentation",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "authors": ["Autor 1", "Autor 2", "Autor N"]
+        }
+    },
+    {
+        "type": "slides",
+        "theme": "1",
+        "info": {
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "subtitles": ["Subtitulo 1", "Subtitulo 2", "Subtitulo N"],
+            "subdescriptions": ["Descripción 1", "Descripción 2", "Descripción N"],
+            "images": ["Imagen 1", "Imagen 2", "Imagen N"]
+        }
+    },
+    {
+        "type": "title",
+        "theme": "1",
+        "info": {
+            "title": "Titulo"
+        }
+    }
+]
