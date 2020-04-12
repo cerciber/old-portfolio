@@ -1,12 +1,12 @@
 
 :root {
     --color0: rgba(0,0,0,0);
-    --color1: rgba(0,0,0,0.75);
-    --color2: rgb(0, 93, 0);
-    --color3: rgb(145, 196, 5);
-    --color4: rgba(188, 238, 73,1);
-    --color5: rgba(240,233,93,1);
-    --color6: rgb(235, 235, 235);
+    --color1: rgb(0, 0, 0);
+    --color2: rgb(31, 99, 33);
+    --color3: rgb(108, 162, 0);
+    --color4: rgb(201, 230, 134);
+    --color5: rgb(241, 255, 191);
+    --color6: rgb(247, 255, 236);
     --color7: rgb(251, 255, 239);
   }
   
@@ -46,13 +46,14 @@ body {
 }
 
 .tabs {
-    margin-top: -16px;
     height: 75px;
     display: flex;
     justify-content: flex-end;
 }
 
 .tab {
+    margin-top: -16px;
+    margin-bottom: 16px;
     float: right;
     list-style-type: none;
     padding: 10px;
@@ -89,7 +90,7 @@ body {
 }
 
 .subtab {
-    margin-top: 10px;
+    margin-top: 5px;
     list-style-type: none;
     text-align:center;
     display: block;
@@ -242,6 +243,7 @@ body {
 .descriptionImage {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .descriptionImage-left {
@@ -265,5 +267,209 @@ body {
 .descriptionImage-image {
     max-width:100%;
     max-height:100%;
+    box-shadow: 7px 7px 5px -4px var(--color1);
+    border-radius: 5px 5px 5px 5px;
     margin-bottom: 15px;
+}
+
+.descriptionImages-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.descriptionImages-description {
+    font-size: 12px;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.descriptionImages-content {
+    display: flex;
+}
+
+.descriptionImages {
+    margin-right: 30px;
+}
+
+.descriptionImages:last-child {
+    margin-right: 0px;
+}
+
+.descriptionImages-image {
+    max-width:100%;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 5px -4px var(--color1);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.descriptionImages-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 10px;
+}
+
+.descriptionImages-subdescriptions {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.images-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.images-description {
+    font-size: 12px;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.images-content {
+    margin-right: -20px;
+}
+
+.images {
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+
+.images-image1-content {
+    width:40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px -4px var(--color1);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.images-image2-content {
+    width:60%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px -4px var(--color1);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.images-image3-content {
+    width:100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px -4px var(--color1);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.images-image1 {
+    height: 100%;
+    margin-bottom: -10px;
+}
+
+.images-image2 {
+    width:100%;
+    margin-bottom: -10px;
+}
+
+.images-image3 {
+    width:100%;
+    margin-bottom: -10px;
+}
+
+.presentation-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.presentation-description {
+    font-size: 12px;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.presentation-list {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.presentation-author {
+    font-size: 10px;
+    color: var(--color1);
+    margin-bottom: 10px;
+}
+
+.slides-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.slides-description {
+    font-size: 12px;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.slides-imageContent {
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+}
+
+.slides-image {
+    width:80%;
+    height:100%;
+    box-shadow: 9px 9px 7px -4px var(--color1);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.slides-left {
+    width:10%;
+    border: none;
+    background-color: var(--color0);
+    color: var(--color2);
+}
+
+.slides-left:hover {
+    color: var(--color3);
+}
+
+.slides-right {
+    width:10%;
+    border: none;
+    background-color: var(--color0);
+    color: var(--color2);
+}
+
+.slides-right:hover {
+    color: var(--color3);
+}
+
+.slides-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 10px;
+}
+
+.slides-subdescriptions {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+
+.title-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+    text-align: center;
 }

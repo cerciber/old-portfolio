@@ -1,76 +1,9 @@
 [
     {
-        "type": "characteristics",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "subtitles": ["", "", ""],
-            "subdescriptions": ["", "", ""]
-        }
-    },
-    {
-        "type": "description",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : ""
-        }
-    },
-    {
-        "type": "description-image",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "image": ""
-        }
-    },
-    {
-        "type": "description-images",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "subtitles": ["", "", ""],
-            "subdescriptions": ["", "", ""],
-            "images": ["", "", ""]
-        }
-    },
-    {
-        "type": "images",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "images": ["", "", ""]
-        }
-    },
-    {
-        "type": "presentation",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "authors": ["", "", ""]
-        }
-    },
-    {
-        "type": "slides",
-        "theme": "",
-        "info": {
-            "title": "",
-            "decription" : "",
-            "subtitles": ["", "", ""],
-            "subdescriptions": ["", "", ""],
-            "images": ["", "", ""]
-        }
-    },
-    {
         "type": "title",
-        "theme": "",
         "info": {
-            "title": ""
+            "theme": "1",
+            "title": "Titulo"
         }
     }
 ]

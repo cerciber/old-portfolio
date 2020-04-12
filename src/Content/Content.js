@@ -22,7 +22,10 @@ class Content extends React.Component {
 
   constructor(props) {
     super(props);
+  }
 
+  createContent() {
+    
     // Asignar contenido
     switch (this.props.scene) {
       case Constants.ABOUT_ME_SCENE:
@@ -46,13 +49,8 @@ class Content extends React.Component {
       case Constants.TANK_ATTACT_SCENE:
         this.state = { jsonContent: tankattack };
         break;
-      default:
-        break;
     }
 
-  }
-
-  createContent() {
     var content = [];
     for (var i = 0; i < this.state.jsonContent.length; i++) {
       switch (this.state.jsonContent[i].type) {
