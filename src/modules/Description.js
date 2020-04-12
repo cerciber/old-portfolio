@@ -10,7 +10,10 @@ class Description extends React.Component {
 
   render() {
     return (
-      <div>Description</div>
+      <div class="module">
+        <div class="description-title">{this.props.info.title}</div>
+        <div class="description-description">{this.props.info.decription}</div>
+      </div>
     );
   }
 }

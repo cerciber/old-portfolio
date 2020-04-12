@@ -19,7 +19,6 @@
     word-spacing: 2px;
     font-weight: 700;
     color: var(--color7);
-    text-shadow:1.7px 1.7px 0 var(--color1);
   }
   
 body {
@@ -97,8 +96,8 @@ body {
 }
 
 .content {
-    height: 400px;
     margin-top: -7px;
+    padding: 30px;
     background: var(--color5);
 	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
     box-shadow: 9px 9px 7px -4px var(--color1);
@@ -117,7 +116,7 @@ body {
     height: 110px;
     box-shadow: 9px 9px 7px -4px var(--color1);
     border-radius: 10px 10px 10px 10px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .profilePhoto {
@@ -133,12 +132,11 @@ body {
     padding: 5px;
     text-align: center;
     font-family:"Arial Black", Gadget, sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.7px;
-    word-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
     font-weight: 700;
-    color: var(--color7);
-    text-shadow:1.7px 1.7px 0 var(--color1);
+    color: var(--color2);
 }
 
 .title {
@@ -183,3 +181,89 @@ body {
     margin-left: 10px;
 }
 
+.module {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 9px 9px 7px -4px var(--color1);
+	-moz-box-shadow: 9px 9px 7px -4px var(--color1);
+	box-shadow: 9px 9px 7px -4px var(--color1);
+	background: var(--color6);
+	background: radial-gradient(circle, var(--color6) 0%, var(--color6) 100%);
+}
+
+.caracteristics-title {
+    font-size: 25px;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.caracteristics-description {
+    font-size: 12px;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.caracteristics-subtitle {
+    font-size: 15px;
+    width: 40%;
+    clear: both; 
+    float: left; 
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.caracteristics-subdescriptions {
+    font-size: 12px;
+    float: left;
+    width: 60%;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.description-title {
+    font-size: 25px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.description-description {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.descriptionImage {
+    display: flex;
+    align-items: center;
+}
+
+.descriptionImage-left {
+    margin-right: 30px;
+}
+
+.descriptionImage-title {
+    font-size: 25px;
+    text-align: center;
+    color: var(--color2);
+    margin-bottom: 20px;
+}
+
+.descriptionImage-description {
+    font-size: 12px;
+    text-align: center;
+    color: var(--color1);
+    margin-bottom: 20px;
+}
+
+.descriptionImage-image {
+    max-width:100%;
+    max-height:100%;
+    margin-bottom: 15px;
+}

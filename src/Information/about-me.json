@@ -21,9 +21,20 @@
         "type": "description-image",
         "theme": "1",
         "info": {
+            "type": "1",
             "title": "Titulo",
             "decription" : "Descripción",
-            "image": "Imagen"
+            "image": "/Images/prueba.jpeg"
+        }
+    },
+    {
+        "type": "description-image",
+        "theme": "1",
+        "info": {
+            "type": "2",
+            "title": "Titulo",
+            "decription" : "Descripción",
+            "image": "/Images/prueba.jpeg"
         }
     },
     {
