@@ -1,9 +1,28 @@
 [
     {
-        "type": "title",
+        "type": "characteristics",
         "info": {
             "theme": "1",
-            "title": "Titulo"
+            "title": "Contacto",
+            "decription": "Si desean comunicarse conmigo puede hacerlo a través de estos medios:",
+            "subtitles": [
+                "Correo:",
+                "Github:",
+                "LinkedIn:",
+                "Facebook:",
+                "Twiter:",
+                "Instagram:",
+                "Youtube:"
+            ],
+            "subdescriptions": [
+                "<a href=\"mailto:ceatorresar@unal.edu.co\">ceatorresar@unal.edu.co</a> <br> <a href=\"mailto:cesartorres-13@hotmail.com\">cesartorres-13@hotmail.com</a> <br> <a href=\"mailto:cesaraugustotorresardila.13@gmail.com\">cesaraugustotorresardila.13@gmail.com</a>",
+                "<a href=\"https://github.com/Cerciber\">github.com/Cerciber</a>",
+                "<a href=\"https://www.linkedin.com/in/cesartorres-cerciber\">linkedin.com/in/cesartorres-cerciber</a>",
+                "<a href=\"https://www.facebook.com/cerciber\">facebook.com/cerciber</a>",
+                "<a href=\"https://twitter.com/cerciber\">twitter.com/cerciber</a>",
+                "<a href=\"https://www.instagram.com/cerciber\">instagram.com/cerciber</a>",
+                "<a href=\"https://www.youtube.com/channel/UCRApjHfKXfdGm08fuqepVXg\">youtube.com/channel/UCRApjHfKXfdGm08fuqepVXg</a>"
+            ]
         }
     }
 ]
