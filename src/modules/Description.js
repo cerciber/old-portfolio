@@ -34,7 +34,8 @@ class Description extends React.Component {
     return (
       <div class="module" style={{ background: this.state.background }}>
         <div class="description-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="description-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="description-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
       </div>
     );
   }

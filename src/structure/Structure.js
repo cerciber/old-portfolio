@@ -42,7 +42,7 @@ class Structure extends React.Component {
           <li class="tab" onClick={() => this.changeScene(Constants.CONTACT_SCENE)}>Contacto</li> 
             <li class="tab" onClick={() => this.changeScene(Constants.ABOUT_ME_SCENE)}>Acerca de mí</li>
             <div class="tab"> 
-              <li onClick={() => this.changeScene(Constants.PORTFOLIO_SCENE)}>Portafolio</li>
+              <li class="tabContent" onClick={() => this.changeScene(Constants.PORTFOLIO_SCENE)}>Portafolio</li>
               <ul class="subtabs">
                 <li class="subtab" onClick={() => this.changeScene(Constants.TRIM_CODE_SCENE)}>TrimCode</li>
                 <li class="subtab" onClick={() => this.changeScene(Constants.QUICK_LIST_SCENE)}>QuickList</li>

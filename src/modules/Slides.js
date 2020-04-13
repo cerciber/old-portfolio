@@ -49,8 +49,8 @@ class Slides extends React.Component {
           <div class="slides-subtitle" style={{ color: this.state.title }}>
             {this.props.info.subtitles[this.state.actual]}
           </div>
-          <div class="slides-subdescriptions" style={{ color: this.state.text }}>
-            {this.props.info.subdescriptions[this.state.actual]}
+          <div class="slides-subdescriptions" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.subdescriptions[this.state.actual]}}>
           </div>
         </div>
       );
@@ -61,7 +61,8 @@ class Slides extends React.Component {
     return (
       <div class="module"  style={{ background: this.state.background }}>
         <div class="slides-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="slides-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="slides-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
         <div class="slides-content">
           {this.createList()}
         </div>

@@ -34,7 +34,8 @@ class DescriptionImage extends React.Component {
     const text = (
       <div>
         <div class="descriptionImage-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="descriptionImage-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="descriptionImage-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
       </div>
     );
     const image = (

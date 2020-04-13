@@ -8,18 +8,24 @@
     --color5: rgb(241, 255, 191);
     --color6: rgb(247, 255, 236);
     --color7: rgb(251, 255, 239);
+    --text1: 12px;
+    --text2: 15px;
+    --text3: 15px;
+    --text4: 25px;
   }
   
 
 * {
     box-sizing: border-box;
     outline:1px solid var(--color0);
-    font-family:"Arial Black", Gadget, sans-serif;
+    font-family:"Arial", Gadget, sans-serif;
     letter-spacing: 0.7px;
     word-spacing: 2px;
-    font-weight: 700;
-    color: var(--color7);
   }
+
+b {
+    font-family:"Arial black", Gadget, sans-serif;
+}
   
 body {
     background-color: var(--color7);
@@ -55,20 +61,23 @@ body {
     margin-top: -16px;
     margin-bottom: 16px;
     float: right;
+    font-family:"Arial black", Gadget, sans-serif;
     list-style-type: none;
     padding: 10px;
     margin-left: 15px;
     text-align:center;
-    font-size: 12px;
+    font-size: 10px;
     width: 120px;
     background: var(--color2);
 	background: radial-gradient(circle, var(--color2) 0%, var(--color2) 100%);
     box-shadow: 5px 4px 4px 0px var(--color1);
     border-radius: 0px 0px 10px 10px;
+    color: var(--color7);
     
 }
 
 .subtabs {
+    font-family:"Arial black", Gadget, sans-serif;
     list-style-type: none;
     padding: 0;
     display: none;
@@ -91,13 +100,18 @@ body {
 
 .subtab {
     margin-top: 5px;
+    font-family:"Arial black", Gadget, sans-serif;
     list-style-type: none;
     text-align:center;
     display: block;
 }
 
+.tabContent {
+    font-family:"Arial black", Gadget, sans-serif;
+}
+
 .content {
-    margin-top: -7px;
+    margin-top: -25px;
     padding: 30px;
     background: var(--color5);
 	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
@@ -150,7 +164,7 @@ body {
 	-webkit-text-shadow:local1px 1px 0 rgb(227,227,227),2px 2px 0 rgb(198,198,198),3px 3px 0 rgb(170,170,170),4px 4px 0 rgb(142,142,142),5px 5px 0 rgb(113,113,113),6px 6px 0 rgb(85,85,85),7px 7px 0 rgb(57,57,57),8px 8px 0 rgb(28,28,28),9px 9px 1px rgba(0,0,0,1);
 	-moz-text-shadow:1px 1px 0 rgb(227,227,227),2px 2px 0 rgb(198,198,198),3px 3px 0 rgb(170,170,170),4px 4px 0 rgb(142,142,142),5px 5px 0 rgb(113,113,113),6px 6px 0 rgb(85,85,85),7px 7px 0 rgb(57,57,57),8px 8px 0 rgb(28,28,28),9px 9px 1px rgba(0,0,0,1);
 	color:var(--color7);
-	font-size:50px;
+	font-size: 50px;
     font-family:"Arial Black", Gadget, sans-serif;
     background: var(--color3);
     background: -moz-linear-gradient(-45deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
@@ -198,19 +212,21 @@ body {
 }
 
 .caracteristics-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .caracteristics-description {
-    font-size: 12px;
+    font-size: var(--text3);
     color: var(--color1);
     margin-bottom: 20px;
 }
 
 .caracteristics-subtitle {
-    font-size: 15px;
+    font-size: var(--text2);
+    font-family:"Arial black", Gadget, sans-serif;
     width: 40%;
     clear: both; 
     float: left; 
@@ -219,7 +235,7 @@ body {
 }
 
 .caracteristics-subdescriptions {
-    font-size: 12px;
+    font-size: var(--text1);
     float: left;
     width: 60%;
     color: var(--color1);
@@ -227,14 +243,15 @@ body {
 }
 
 .description-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .description-description {
-    font-size: 12px;
+    font-size: var(--text3);
     text-align: center;
     color: var(--color1);
     margin-bottom: 20px;
@@ -251,14 +268,15 @@ body {
 }
 
 .descriptionImage-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .descriptionImage-description {
-    font-size: 12px;
+    font-size: var(--text3);
     text-align: center;
     color: var(--color1);
     margin-bottom: 20px;
@@ -273,13 +291,14 @@ body {
 }
 
 .descriptionImages-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .descriptionImages-description {
-    font-size: 12px;
+    font-size: var(--text3);
     color: var(--color1);
     margin-bottom: 20px;
 }
@@ -304,27 +323,29 @@ body {
 }
 
 .descriptionImages-subtitle {
-    font-size: 15px;
+    font-size: var(--text2);
+    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 10px;
 }
 
 .descriptionImages-subdescriptions {
-    font-size: 12px;
+    font-size: var(--text1);
     text-align: center;
     color: var(--color1);
     margin-bottom: 20px;
 }
 
 .images-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .images-description {
-    font-size: 12px;
+    font-size: var(--text3);
     color: var(--color1);
     margin-bottom: 20px;
 }
@@ -382,13 +403,14 @@ body {
 }
 
 .presentation-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .presentation-description {
-    font-size: 12px;
+    font-size: var(--text3);
     color: var(--color1);
     margin-bottom: 20px;
 }
@@ -399,19 +421,21 @@ body {
 }
 
 .presentation-author {
-    font-size: 10px;
+    font-size: var(--text2);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color1);
     margin-bottom: 10px;
 }
 
 .slides-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
 
 .slides-description {
-    font-size: 12px;
+    font-size: var(--text3);
     color: var(--color1);
     margin-bottom: 20px;
 }
@@ -453,14 +477,15 @@ body {
 }
 
 .slides-subtitle {
-    font-size: 15px;
+    font-size: var(--text2);
+    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 10px;
 }
 
 .slides-subdescriptions {
-    font-size: 12px;
+    font-size: var(--text1);
     text-align: center;
     color: var(--color1);
     margin-bottom: 20px;
@@ -468,7 +493,8 @@ body {
 
 
 .title-title {
-    font-size: 25px;
+    font-size: var(--text4);
+    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
     text-align: center;

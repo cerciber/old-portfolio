@@ -74,7 +74,8 @@ class Images extends React.Component {
     return (
       <div class="module"  style={{ background: this.state.background }}>
         <div class="images-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="images-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="images-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
         <div class="images-content">
           {this.createList()}
         </div>

@@ -41,8 +41,8 @@ class DescriptionsImages extends React.Component {
           <div class="descriptionImages-subtitle" style={{ color: this.state.title }}>
             {this.props.info.subtitles[i]}
           </div>
-          <div class="descriptionImages-subdescriptions" style={{ color: this.state.text }}>
-            {this.props.info.subdescriptions[i]}
+          <div class="descriptionImages-subdescriptions" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.subdescriptions[i]}}>
           </div>
         </div>
       );
@@ -54,7 +54,8 @@ class DescriptionsImages extends React.Component {
     return (
       <div class="module"  style={{ background: this.state.background }}>
         <div class="descriptionImages-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="descriptionImages-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="descriptionImages-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
         <div class="descriptionImages-content">
           {this.createList()}
         </div>

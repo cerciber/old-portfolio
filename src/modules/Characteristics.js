@@ -38,8 +38,8 @@ class Characteristics extends React.Component {
           <div class="caracteristics-subtitle" style={{ color: this.state.title }}>
             {this.props.info.subtitles[i]}
           </div>
-          <div class="caracteristics-subdescriptions" style={{ color: this.state.text }}>
-            {this.props.info.subdescriptions[i]}
+          <div class="caracteristics-subdescriptions" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.subdescriptions[i]}}>
           </div>
         </div>
       );
@@ -51,7 +51,8 @@ class Characteristics extends React.Component {
     return (
       <div class="module" style={{ background: this.state.background }}>
         <div class="caracteristics-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="caracteristics-description" style={{ color: this.state.text }}>{this.props.info.decription}</div>
+        <div class="caracteristics-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>
         <div class="caracteristics-content">
           {this.createList()}
         </div>
