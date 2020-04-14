@@ -77,7 +77,7 @@ class Content extends React.Component {
           break;
         case "title":
           content.push(<Title info={this.state.jsonContent[i].info}></Title>);
-          break;
+          break; 
       }
     }
     return content;

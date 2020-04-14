@@ -1,9 +1,284 @@
 [
     {
-        "type": "title",
+        "type": "presentation",
         "info": {
             "theme": "1",
-            "title": "Titulo"
+            "title": "QuickList",
+            "decription": "Software de integración de responsabilidades administrativo-académicas para el Servicio Nacional de Aprendizaje (SENA).",
+            "authors": [
+                "Camilo Andrés Santana",
+                "Cesar Augusto Torres Ardila",
+                "Paola Alejandra Sierra Mendez"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "¿Qué es?",
+            "decription": "QuickList es un software de integración de responsabilidades administrativo-académicas desarrollado para el SENA. Está enfocado a la gestión de fallas, actividades, calificaciones, planes de estudio y exportación de formatos de etapa lectiva predefinidos. Fue pensado como una solución viable a las falencias identificadas en el SENA a la hora de llevar los controles de los estudiantes en términos de tiempo y accesibilidad.",
+            "image": "/Images/quicklist1.jpg"
+        }
+    },
+    {
+        "type": "images",
+        "info": {
+            "theme": "2",
+            "title": "Vista general",
+            "decription": "",
+            "images": [
+                "/Images/quicklist2.jpg",
+                "/Images/quicklist3.jpg",
+                "/Images/quicklist4.jpg",
+                "/Images/quicklist5.jpg"
+            ]
+        }
+    },
+    {
+        "type": "characteristics",
+        "info": {
+            "theme": "1",
+            "title": "Características del proyecto",
+            "decription": "Proyecto de grado desarrollado para el tecnólogo Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA).",
+            "subtitles": [
+                "Equipo:",
+                "Tipo:",
+                "Arquitectura:",
+                "Lenguajes:",
+                "Tecnologías:"
+            ],
+            "subdescriptions": [
+                "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia. <br> <b>Camilo Andrés Santana</b> . Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). <br> <b>Paola Alejandra Sierra Mendez</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA).",
+                "Aplicación de escritorio",
+                "MVC (Modelo - Vista - Controlador)",
+                "Java SE<br>SQLServer",
+                "Swing<br>Apache POI"
+            ]
+        }
+    },
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Funcionamiento"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Inicio",
+            "decription": "Permite a los usuarios iniciar sesión por medio de un usuario, una contraseña y un tipo de ingreso. Existen 3 roles que pueden acceder al sistema: Administrador, Instructor y Aprendiz. El administrador es el encargado de controlar todos los módulos del sistema, tiene acceso a todos los permisos dentro de la aplicación y es el único que puede registrar, modificar y eliminar otros usuarios. El instructor es el encargado de llevar el control de las fichas y a su vez de los aprendices. El aprendiz puede consultar información relacionada a su proceso de aprendizaje, adjuntar actividades y excusas, y generar el reporte de seguimiento de etapa electiva.",
+            "image": "/Images/quicklist6.jpg"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "4",
+            "title": "Opciones de usuario",
+            "decription": "",
+            "subtitles": [
+                "Panel de usuario",
+                "Foto de perfil",
+                "Cambio de foto"
+            ],
+            "subdescriptions": [
+                "Al ingresar al sistema, en cualquier rol, siempre se puede visualizar en la esquina superior izquierda un panel en el que se muestra el nombre, el documento y la imagen de perfil del usuario que ha iniciado sesión. También se puede observar un botón de acceso que le permite al usuario modificar sus datos personales.",
+                "Adicionalmente, cuando un usuario selecciona su imagen de perfil, se muestra una pantalla redimensionable en la cual se puede detallar mejor la foto de perfil, eliminarla y cambiarla.",
+                "Cuando un usuario cambia su foto de perfil, se muestra una pantalla de búsqueda en la cual se puede seleccionar una foto, en cualquier formato estándar, almacenada en el ordenador para realizar el cambio."
+            ],
+            "images": [
+                "/Images/quicklist7.jpg",
+                "/Images/quicklist8.jpg",
+                "/Images/quicklist9.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Opciones del sistema",
+            "decription": "",
+            "subtitles": [
+                "Barra inferior",
+                "Configuración"
+            ],
+            "subdescriptions": [
+                "Existe un panel inferior que se visualiza todo el tiempo una vez que se ha iniciado sesión en el sistema en cualquier rol. Este panel contiene opciones para volver a la pantalla anterior, cerrar la sesión actual, abrir la pantalla de configuración y abrir el manual técnico de usuario para la ayuda.",
+                "La pantalla de configuración permite al usuario cambiar el tamaño por defecto de la ventana, cambiar propiedades de tamaño y espaciado de las tablas, activar y desactivar las animaciones de los objetos al ingresar a una pantalla y sus velocidades, cambiar propiedades de la paginación de tablas y cambiar propiedades del inicio de sesión. "
+            ],
+            "images": [
+                "/Images/quicklist10.jpg",
+                "/Images/quicklist12.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Vistas en tablas",
+            "decription": "El sistema contiene varias vistas de tipo tabla que se utilizan en diferentes lugares para visualizar información. Estas vistas tienen la propiedad de permitir el acceso a cada uno de los registros en los botones izquierdos, el ordenamiento por columnas en los botones superiores, la separación de resultados por paginas y ademas permite realizar búsquedas en la barra superior. Como ejemplo se muestra una vista del administrador en donde se listan los funcionarios registrados.",
+            "image": "/Images/quicklist13.jpg"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Barra de búsqueda de las tablas",
+            "decription": "",
+            "subtitles": [
+                "Ordenamiento",
+                "Filtro",
+                "Resultado"
+            ],
+            "subdescriptions": [
+                "Para buscar un registro en una tabla primero se selecciona la columna en la que se desea buscar (Al hacer esto los registros se organizan en orden alfabético con relación a la columna seleccionada).",
+                "Una vez seleccionada la columna se procede a ingresar la cadena a buscar dentro del campo del panel superior y se presiona el botón de buscar.",
+                "Al iniciar la búsqueda el sistema devuelve todos los registros que coincidan con la búsqueda organizados en orden alfabético."
+            ],
+            "images": [
+                "/Images/quicklist14.jpg",
+                "/Images/quicklist15.jpg",
+                "/Images/quicklist16.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "4",
+            "type": "1",
+            "title": "Edición de registros",
+            "decription": "En en ciertos casos, los usuarios tienen la posibilidad de acceder a un registro de una tabla para editarlo. Cuando se accede a esta opción se muestra el formulario de registro correspondiente de la tabla en la que se encuentra (en este caso, la tabla funcionarios) con los datos del registro seleccionado.",
+            "image": "/Images/quicklist17.jpg"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "2",
+            "title": "Eliminación de registros",
+            "decription": "",
+            "subtitles": [
+                "Confirmación",
+                "Advertencia"
+            ],
+            "subdescriptions": [
+                "En en ciertos casos, los usuarios tienen la posibilidad de eliminar un registro. Cuando se accede a esta opción se muestra una confirmación para verificar que efectivamente el registro mostrado es el que se quiere eliminar.",
+                "Posteriormente se muestra otra advertencia para notificarle al usuario que el registro podría tener otra información asociada a él que también se eliminará. Una vez aceptadas las dos notificaciones el registro será eliminado permanentemente."
+            ],
+            "images": [
+                "/Images/quicklist18.jpg",
+                "/Images/quicklist19.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Rol de Administrador",
+            "decription": "El rol administrador tiene todos los permisos dentro del sistema, por lo tanto puede controlar y visualizar funcionarios, fichas y dentro de estas a los aprendices. También puede controlar y visualizar el plan de estudios asignado a una ficha así como crear nuevos planes de estudios. Una vez el administrador ingresa al sistema se muestra un menú en el cual se puede acceder a tres módulos: funcionarios, fichas y planes de estudios.",
+            "image": "/Images/quicklist20.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Modulo Plan de estudios",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver plan de estudios en donde se pueden gestionar los planes de estudios ya existentes en el sistema y está la opción Ingresar Plan de estudio para crear uno nuevo.",
+            "image": "/Images/quicklist21.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Ingresar plan de estudios",
+            "decription": "En los planes de estudio que emplea el SENA para formar a a sus estudiantes se identificaron ciertas características que son relevantes en el manejo de la aplicación. Las cuales son: Nombre del plan de estudios, Programa, Versión, Meses de etapa electiva y Nivel de formación. Todos los campos son obligatorios debido al nivel de importancia de un plan de estudios.",
+            "image": "/Images/quicklist22.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "4",
+            "type": "2",
+            "title": "Ver plan de estudios",
+            "decription": "Esta vista de tipo tabla lista todos los planes de estudio que ya estén ingresados en el sistema, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada plan de estudios listado contiene opciones para editar, eliminar y acceder al modulo de competencias respectivamente.",
+            "image": "/Images/quicklist23.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Modulo de competencias",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver competencias en donde se pueden gestionar las competencias ya existentes en el plan de estudios y está la opción Ingresar competencia para crear una nueva.",
+            "image": "/Images/quicklist24.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Ingresar competencia",
+            "decription": "Para ingresar una competencia en un plan de estudios basta con ingresar el nombre de la competencia, pues ésta es la única información relevante para la aplicación.",
+            "image": "/Images/quicklist25.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Ver competencias",
+            "decription": "Esta vista de tipo tabla lista todas las competencias del plan de estudio que ya estén ingresados, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada competencia listada contiene opciones para editar, eliminar y acceder al modulo de actividades de aprendizaje respectivamente.",
+            "image": "/Images/quicklist26.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "4",
+            "type": "2",
+            "title": "Modulo actividades de aprendizaje",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver actividades de aprendizaje en donde se pueden gestionar las actividades de aprendizaje ya existentes en la competencia y está la opción Ingresar actividad de de aprendizaje para crear una nueva.",
+            "image": "/Images/quicklist27.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Ingresar actividad de aprendizaje",
+            "decription": "Para ingresar una actividad de aprendizaje en una competencia basta con ingresar el nombre de la  actividad de aprendizaje y especificar la fase de formación a la que pertenece.",
+            "image": "/Images/quicklist28.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Ver Actividades de clase",
+            "decription": "Esta vista de tipo tabla lista todas las actividades que ya estén ingresadas en el horario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada actividad listada contiene opciones para editar, eliminar y calificar respectivamente.",
+            "image": "/Images/quicklist29.jpg"
         }
     }
 ]

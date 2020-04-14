@@ -9,7 +9,7 @@ class Structure extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { scene: Constants.ABOUT_ME_SCENE }
+    this.state = { scene: Constants.QUICK_LIST_SCENE }
   }
 
   changeScene(val) {

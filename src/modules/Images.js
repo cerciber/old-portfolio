@@ -32,40 +32,12 @@ class Images extends React.Component {
 
   createList() {
     var content = [];
-    for (var i = 0; i < Math.floor(this.props.info.images.length / 2); i++) {
-      if (i % 2== 0) {
-        content.push(
-          <div class="images">
-            <div class="images-image1-content">
-              <img class="images-image1" src={process.env.PUBLIC_URL + this.props.info.images[i*2]} alt={this.props.info.image} />
-            </div>
-            <div class="images-image2-content">
-              <img class="images-image2" src={process.env.PUBLIC_URL + this.props.info.images[i*2+1]} alt={this.props.info.image} />
-            </div>
-          </div>
-        );
-      } else {
-        content.push(
-          <div class="images">
-            <div class="images-image2-content">
-              <img class="images-image2" src={process.env.PUBLIC_URL + this.props.info.images[i*2]} alt={this.props.info.image} />
-            </div>
-            <div class="images-image1-content">
-              <img class="images-image1" src={process.env.PUBLIC_URL + this.props.info.images[i*2+1]} alt={this.props.info.image} />
-            </div>
-          </div>
-        );
-      }
-    }
-
-    if (this.props.info.images.length % 2 != 0) {
+    for (var i = 0; i <this.props.info.images.length; i++) {
       content.push(
-        <div class="images">
-          <div class="images-image3-content">
-            <img class="images-image3" src={process.env.PUBLIC_URL + this.props.info.images[this.props.info.images.length - 1]} alt={this.props.info.image} />
-          </div>
+        <div class="images-image-content">
+          <img class="images-image" src={process.env.PUBLIC_URL + this.props.info.images[i]} alt={this.props.info.image} />
         </div>
-      );
+      ); 
     }
     return content;
   }
@@ -73,9 +45,9 @@ class Images extends React.Component {
   render() {
     return (
       <div class="module"  style={{ background: this.state.background }}>
-        <div class="images-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="images-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
-        this.props.info.decription}}></div>
+        {this.props.info.title != "" && <div class="images-title" style={{ color: this.state.title }}>{this.props.info.title}</div>}
+        {this.props.info.decription != "" && <div class="images-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>}
         <div class="images-content">
           {this.createList()}
         </div>
