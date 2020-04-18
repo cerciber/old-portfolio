@@ -21,7 +21,7 @@ class SubTitle extends React.Component {
         this.state = { title: "var(--color4)", text: "var(--color1)", background: "var(--color3)" };
         break;
       case "5":
-        this.state = { title: "var(--color4)", text: "var(--color6)", background: "var(--color2)" };
+        this.state = { title: "var(--color7)", text: "var(--color6)", background: "var(--color2)" };
         break;
       case "6":
         this.state = { title: "var(--color4)", text: "var(--color7)", background: "var(--color1)" };

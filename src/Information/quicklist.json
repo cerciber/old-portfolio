@@ -1,9 +1,16 @@
 [
     {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "QuickList"
+        }
+    },
+    {
         "type": "presentation",
         "info": {
             "theme": "1",
-            "title": "QuickList",
+            "title": "",
             "decription": "Software de integración de responsabilidades administrativo-académicas para el Servicio Nacional de Aprendizaje (SENA).",
             "authors": [
                 "Camilo Andrés Santana",
@@ -68,7 +75,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "2",
+            "theme": "3",
             "type": "1",
             "title": "Inicio",
             "decription": "Permite a los usuarios iniciar sesión por medio de un usuario, una contraseña y un tipo de ingreso. Existen 3 roles que pueden acceder al sistema: Administrador, Instructor y Aprendiz. El administrador es el encargado de controlar todos los módulos del sistema, tiene acceso a todos los permisos dentro de la aplicación y es el único que puede registrar, modificar y eliminar otros usuarios. El instructor es el encargado de llevar el control de las fichas y a su vez de los aprendices. El aprendiz puede consultar información relacionada a su proceso de aprendizaje, adjuntar actividades y excusas, y generar el reporte de seguimiento de etapa electiva.",
@@ -78,7 +85,7 @@
     {
         "type": "description-images",
         "info": {
-            "theme": "4",
+            "theme": "2",
             "title": "Opciones de usuario",
             "decription": "",
             "subtitles": [
@@ -131,7 +138,7 @@
     {
         "type": "description-images",
         "info": {
-            "theme": "1",
+            "theme": "2",
             "title": "Barra de búsqueda de las tablas",
             "decription": "",
             "subtitles": [
@@ -154,7 +161,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "4",
+            "theme": "1",
             "type": "1",
             "title": "Edición de registros",
             "decription": "En en ciertos casos, los usuarios tienen la posibilidad de acceder a un registro de una tabla para editarlo. Cuando se accede a esta opción se muestra el formulario de registro correspondiente de la tabla en la que se encuentra (en este caso, la tabla funcionarios) con los datos del registro seleccionado.",
@@ -164,7 +171,7 @@
     {
         "type": "description-images",
         "info": {
-            "theme": "2",
+            "theme": "3",
             "title": "Eliminación de registros",
             "decription": "",
             "subtitles": [
@@ -184,7 +191,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "1",
+            "theme": "2",
             "type": "1",
             "title": "Rol de Administrador",
             "decription": "El rol administrador tiene todos los permisos dentro del sistema, por lo tanto puede controlar y visualizar funcionarios, fichas y dentro de estas a los aprendices. También puede controlar y visualizar el plan de estudios asignado a una ficha así como crear nuevos planes de estudios. Una vez el administrador ingresa al sistema se muestra un menú en el cual se puede acceder a tres módulos: funcionarios, fichas y planes de estudios.",
@@ -194,7 +201,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "3",
+            "theme": "1",
             "type": "2",
             "title": "Modulo Plan de estudios",
             "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver plan de estudios en donde se pueden gestionar los planes de estudios ya existentes en el sistema y está la opción Ingresar Plan de estudio para crear uno nuevo.",
@@ -204,7 +211,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "2",
+            "theme": "3",
             "type": "1",
             "title": "Ingresar plan de estudios",
             "decription": "En los planes de estudio que emplea el SENA para formar a a sus estudiantes se identificaron ciertas características que son relevantes en el manejo de la aplicación. Las cuales son: Nombre del plan de estudios, Programa, Versión, Meses de etapa electiva y Nivel de formación. Todos los campos son obligatorios debido al nivel de importancia de un plan de estudios.",
@@ -214,7 +221,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "4",
+            "theme": "2",
             "type": "2",
             "title": "Ver plan de estudios",
             "decription": "Esta vista de tipo tabla lista todos los planes de estudio que ya estén ingresados en el sistema, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada plan de estudios listado contiene opciones para editar, eliminar y acceder al modulo de competencias respectivamente.",
@@ -254,7 +261,7 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "4",
+            "theme": "1",
             "type": "2",
             "title": "Modulo actividades de aprendizaje",
             "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver actividades de aprendizaje en donde se pueden gestionar las actividades de aprendizaje ya existentes en la competencia y está la opción Ingresar actividad de de aprendizaje para crear una nueva.",
@@ -274,11 +281,397 @@
     {
         "type": "description-image",
         "info": {
-            "theme": "1",
+            "theme": "2",
             "type": "2",
             "title": "Ver Actividades de clase",
             "decription": "Esta vista de tipo tabla lista todas las actividades que ya estén ingresadas en el horario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada actividad listada contiene opciones para editar, eliminar y calificar respectivamente.",
             "image": "/Images/quicklist29.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Modulo Resultados de aprendizaje",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver resultados de aprendizaje en donde se pueden gestionar los resultados de aprendizaje ya existentes en la actividad de aprendizaje y está la opción Ingresar resultado de de aprendizaje para crear uno nuevo.",
+            "image": "/Images/quicklist30.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Ingresar Resultado de aprendizaje",
+            "decription": "Para ingresar un resultado de aprendizaje en una actividad de aprendizaje basta con ingresar el nombre  del resultado de aprendizaje, pues ésta es la única información relevante para la aplicación.",
+            "image": "/Images/quicklist31.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Modulo Fichas",
+            "decription": "En el SENA las fichas representan un grupo de estudiantes que se forman bajo las mismas condiciones. En este modulo se pueden observar dos opciones principales. Está la opción Ver fichas en donde se pueden gestionar las fichas ya existentes en el sistema y está la opción Ingresar Fichas para crear una nueva.",
+            "image": "/Images/quicklist32.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Ingresar Ficha",
+            "decription": "Para ingresar una ficha, es necesario ingresar el numero de la ficha, relacionar un plan de estudios que ya esté en el sistema y establecer las fechas de iniciación y finalización.",
+            "image": "/Images/quicklist33.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Ver Fichas",
+            "decription": "Esta vista de tipo tabla lista todas las fichas que ya estén ingresadas, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada ficha contiene opciones para editar, eliminar, acceder al modulo de estudiantes y acceder al módulo de horarios respectivamente.",
+            "image": "/Images/quicklist34.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Modulo Horarios",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver horarios en donde se pueden gestionar los horarios ya existentes en el sistema y está la opción Ingresar horarios para crear uno nuevo.",
+            "image": "/Images/quicklist35.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Ingresar Horario",
+            "decription": "Para ingresar un horario es necesario relacionar el resultado de aprendizaje al que corresponde, el funcionario que dará las sesiones, el día, la hora de inicio y finalización, la fecha de inicio y finalización y  por ultimo el lugar en el cual se dará la sesión.",
+            "image": "/Images/quicklist36.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Ver Horarios",
+            "decription": "Esta vista de tipo tabla lista todos los horarios que ya estén ingresados en la ficha, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada ficha contiene opciones para editar, eliminar, acceder al modulo de actividades y acceder al módulo de asistencia respectivamente.",
+            "image": "/Images/quicklist37.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Modulo Actividades de clase",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver actividades en donde se pueden gestionar las actividades ya existentes en el sistema y está la opción Ingresar actividad para crear una nueva (No confundir con el modulo Actividades de aprendizaje que corresponde a un componente del plan de estudios).",
+            "image": "/Images/quicklist38.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Ingresar Actividad de clase",
+            "decription": "Para ingresar una actividad se necesita del nombre de la actividad, el nombre de la evidencia que se recibirá, el medio por el cual se entregará la evidencia, el tipo de la actividad y la fecha de entrega de la evidencia.",
+            "image": "/Images/quicklist39.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Ver Actividades de clase",
+            "decription": "Esta vista de tipo tabla lista todas las actividades que ya estén ingresadas en el horario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada actividad listada contiene opciones para editar, eliminar y calificar respectivamente.",
+            "image": "/Images/quicklist40.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Calificar actividad de clase",
+            "decription": "Esta vista de tipo tabla lista todos los estudiantes que estén ingresados en la ficha, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada estudiante listado contiene cajas de chequeo para evaluar la actividad según los parámetros de calificación del SENA.",
+            "image": "/Images/quicklist41.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Modulo de asistencia",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción Ver asistencias en donde se pueden gestionar las asistencias ya tomadas en el sistema y está la opción Tomar asistencia para tomar una nueva.",
+            "image": "/Images/quicklist42.jpg"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "3",
+            "title": "Tomar asistencia",
+            "decription": "",
+            "subtitles": [
+                "Fecha",
+                "Listado",
+                "Excusa"
+            ],
+            "subdescriptions": [
+                "Inicialmente se especifica la fecha de la toma de asistencia y se pulsa en siguiente. La fecha por defecto es la fecha actual.",
+                "Posteriormente se listan todos los estudiantes pertenecientes a la ficha y en cada registro se permite seleccionar el estado de la asistencia, si está justificada y ver la excusa si han sido adjuntada por un aprendiz.",
+                "Al ver una excusa se muestra la foto de la excusa adjuntada y las opciones para validarla o negarla."
+            ],
+            "images": [
+                "/Images/quicklist43.jpg",
+                "/Images/quicklist44.jpg",
+                "/Images/quicklist45.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Rol de Funcionario",
+            "decription": "El rol de funcionario solo tiene opciones para gestionar algunas características de sus fichas, como generar el reporte de aprendices, gestionar las actividades y la toma de asistencia de un horario de clases en especifico.",
+            "image": "/Images/quicklist46.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Seleccionar Ficha",
+            "decription": "Esta vista de tipo tabla lista todas las fichas que estén relacionadas con el funcionario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada ficha listada contiene la opción de acceder a la ficha.",
+            "image": "/Images/quicklist47.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Opciones de la Ficha",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción de acceder a los horarios que el funcionario tiene asociados a la ficha y la opción de generar el reporte de aprendices que maneja el SENA.",
+            "image": "/Images/quicklist48.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Horarios",
+            "decription": "Esta vista de tipo tabla lista todos los horarios de la ficha que estén relacionados con el funcionario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada horario listado contiene la opción de acceder a él.",
+            "image": "/Images/quicklist49.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Opciones de Horario",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción de acceder a las opciones de asistencia y acceder a las opción de formato de etapa lectiva.",
+            "image": "/Images/quicklist50.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Opciones de Asistencia",
+            "decription": "En este modulo se pueden observar tres opciones principales. Están las opciones de ver y tomar asistencias (las cuales funcionan de la misma forma que en el rol de administrador) y la opción de generar el reporte de asistencia que maneja el SENA.",
+            "image": "/Images/quicklist51.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Opciones de Formato Etapa Lectiva",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción de ver actividades ya existentes y la opción de ingresar una nueva actividad de clase. (Estas opciones funcionan de la misma forma que en el rol de administrador)",
+            "image": "/Images/quicklist52.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Rol de Aprendiz",
+            "decription": "El rol de aprendiz solo tiene opciones para gestionar algunas características de la asistencia, como adjuntar escusas, y generar el formato de etapa lectiva que maneja el SENA.",
+            "image": "/Images/quicklist53.jpg"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Opciones de asistencia",
+            "decription": "En este modulo se pueden observar dos opciones principales. Está la opción de acceder a la asistencia por horario y acceder a la asistencia a través del plan de estudios. Ambas opciones funcionan casi de la misma manera, la única diferencia es la forma de acceder a la asistencia.",
+            "image": "/Images/quicklist54.jpg"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "2",
+            "title": "Asistencia por horario",
+            "decription": "",
+            "subtitles": [
+                "Horarios",
+                "Asistencias",
+                "Excusa",
+                "Busqueda de excusa"
+            ],
+            "subdescriptions": [
+                "Esta vista de tipo tabla lista todos los horarios activos para el aprendiz que estén relacionados con el funcionario, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada horario listado contiene la opción de acceder a las asistencias del horario (Al buscar en el plan de estudios se muestra la misma lista de horarios pero filtrada por resultado de aprendizaje).",
+                "Esta vista de tipo tabla lista todas las asistencias tomadas para el aprendiz en el horario seleccionado, tiene todas las funcionalidades de tabla que se definieron anteriormente y cada toma de asistencia listada contiene la opción de adjuntar una excusa en caso de tener una falla.",
+                "Esta vista permite adjuntar una excusa en cualquier formato estándar de imagen, también permite dar una descripción de la falla y tiene opciones para cambiar y eliminar la excusa.",
+                "Al adjuntar o cambiar la excusa se muestra una pantalla de búsqueda en la cual se puede seleccionar una foto, en cualquier formato estándar, almacenada en el ordenador para realizar el cambio. "
+            ],
+            "images": [
+                "/Images/quicklist55.jpg",
+                "/Images/quicklist56.jpg",
+                "/Images/quicklist57.jpg",
+                "/Images/quicklist58.jpg"
+            ]
+        }
+    },
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Proceso de creación"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Planeación",
+            "decription": "",
+            "subtitles": [
+                "Identificación",
+                "Descripción",
+                "Formalización"
+            ],
+            "subdescriptions": [
+                "Esta aplicación se creó enfocada a aplicar los conocimientos aprendidos en el tecnólogo en Análisis y Desarrollo de sistemas de información. Por lo tanto se pensó en una problemática en la cual se pudieran aplicar todos los conocimientos adquiridos a lo largo del proceso de formación. Conocimientos como: crear aplicaciones de escritorio funcionales con interfaz gráfica, conexiones a bases de datos relacionales almacenadas en Hosting Web, metodologías de desarrollo, estándares de calidad entre otros. Para tal fin se decidió crear como producto un sistema de información en el cual se brindara una solución al SENA para llevar un mejor control de los aspectos administrativo-académicos de los estudiantes en términos de tiempo y accesibilidad.",
+                "Para dar una descripción concreta de lo que se requiere se realizaron dos encuestas muy especificas, una destinadas a los aprendices y otra destinada a los funcionarios. estas encuestas se realizaron con el propósito de demostrar que efectivamente existía un problema de administración solucionable por medio de un sistema de información y conocer mas a profundidad la forma en que se llevaban a cabo estos procesos.",
+                "A partir de la información recolectada se identificaron requisitos funcionales y no funcionales, se realizó la identificación del software, se crearon los diagramas de casos de uso (Con sus descripciones), entidad relación y se realizó un informe técnico de requerimientos."
+            ],
+            "images": [
+                "/Images/quicklist63.jpg",
+                "/Images/quicklist64.jpg",
+                "/Images/quicklist65.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "3",
+            "title": "Diseño",
+            "decription": "",
+            "subtitles": [
+                "Arquitectura",
+                "Detalle",
+                "Interfaz"
+            ],
+            "subdescriptions": [
+                "Se definieron dos componentes esenciales para el desarrollo del software los cuales fueron: una aplicación de escritorio independiente del sistema operativo, una base de datos externa a la aplicación almacenada en un servidor e implementado en un hosting Web. También e estableció el MVC (Modelo - Vista  - Controlador) como arquitectura de software pensando en estructurar un sistema de información bastante complejo.",
+                "Se realizó todo el moldeamiento UML de la aplicación en donde se diseñaron los siguientes diagramas: Actividades, Clases, Objetos, Componentes, Despliegue, flujo de datos, navegación, navegación gráfico y paquetes. También se realizó una matriz de procesos versus organización para relacionar las funcionalidades con los procesos de la organización. Se realizó otra matriz de procesos versus entidades para determinar que procesos corresponden a cada rol. Por ultimo se realizó un informe técnico de diseño.",
+                "Empleando una herramienta llamada Balsamiq Mockups fue posible crear un diseño básico de las pantallas que contendría la aplicación, se asociaron todas las entradas y salidas identificadas en los requerimientos y también se estableció el flujo a través de las pantallas, estos Mockups fueron modificados posteriormente directamente a través del modo de programación gráfico de NetBeans ."
+            ],
+            "images": [
+                "/Images/quicklist59.jpg",
+                "/Images/quicklist60.jpg",
+                "/Images/quicklist67.png"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "2",
+            "title": "Desarrollo",
+            "decription": "",
+            "subtitles": [
+                "Lenguajes",
+                "Entorno y tecnologías",
+                "Control",
+                "Documentación"
+            ],
+            "subdescriptions": [
+                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó SQL server como lenguaje gestor de bases de datos para almacenar la información relacionada.",
+                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y el entorno gráfico para realizar las pantallas. También se hizo uso de SQL server Managenet Studio para implementar un servidor de SQL server local que posteriormente se trasladó a un servicio de Hosting Web llamado Somee para guardar la base de datos y crear su conexión. Se empleó Apache POI para gestionar documentos en Excel y así poder generar reportes. Por ultimo se utilizó GitHub Desktop para crear repositorios gráficamente.",
+                "Como herramienta de control de versiones y para poder dividir adecuadamente las tareas a realizar se empleó GitHub. Se creó una rama de desarrollo sobre el Master y en esta rama se crearon otras tres ramas, una para cada desarrollador, para lograr realizar las tareas sin complicaciones de integración posterior.",
+                "Se creó un manual de usuario en donde se describieron los aspectos generales de la aplicación y sus instrucciones de uso a nivel de usuarios (Administrador, Funcionario y Aprendiz). También se creó un manual técnico de software en donde se describieron todos los aspectos técnicos de la aplicación, aspectos como conceptos, involucrados, documentación UML, arquitectura, entre otros."
+            ],
+            "images": [
+                "/Images/quicklist67.jpg",
+                "/Images/quicklist68.jpg",
+                "/Images/quicklist69.png",
+                "/Images/quicklist61.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Pruebas",
+            "decription": "",
+            "subtitles": [
+                "Planeación",
+                "Ejecución",
+                "Verificación"
+            ],
+            "subdescriptions": [
+                "Se determinó dividir las pruebas en dos partes. Las pruebas que verifican el cumplimiento de los requerimientos y las pruebas de validación.",
+                "Se tomó cada requerimiento y se comprobó su existencia en la aplicación. Posteriormente se realizaron diferentes casos de prueba por cada requerimiento desarrollado. También se tomó cada entrada de las pantallas y se verificaron las validaciones apropiadas.",
+                "Se tomaron los resultados de las pruebas y se analizaron con los datos esperados. Los requerimientos y las validaciones que no fueron validas se volvieron a modificar hasta que eventualmente todos los requerimientos fueron aceptados."
+            ],
+            "images": [
+                "/Images/quicklist70.png",
+                "/Images/quicklist62.jpg",
+                "/Images/quicklist71.jpg"
+            ]
+        }
+    },
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Opinión"
+        }
+    },
+    {
+        "type": "description",
+        "info": {
+            "theme": "1",
+            "title": "",
+            "decription": "Este proyecto fue el primer sistema de información completo que desarrollé junto a mis compañeros de trabajo. De él aprendí muchísimas cosas acerca de como crear aplicaciones de tipo empresarial. Cosas como trabajar en equipo a nivel de análisis, diseño y desarrollo, también aprendí a integrar lenguajes de programación con lenguajes gestores de bases de datos. Hubieron muchos inconvenientes a la hora de integrar todos los componentes de la aplicación,  pues eran bastantes módulos fuertemente relacionados, sin embargo se logró limitar adecuadamente el proyecto para que cumpliera su funcionalidad y ahora creo que estoy en la capacidad de crear software mucho mas complejo y de forma mas optimizada."
         }
     }
 ]

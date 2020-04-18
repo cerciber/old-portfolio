@@ -9,7 +9,7 @@ class Structure extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { scene: Constants.QUICK_LIST_SCENE }
+    this.state = { scene: Constants.TRIM_CODE_SCENE }
   }
 
   changeScene(val) {
