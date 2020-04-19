@@ -56,8 +56,8 @@
             "subdescriptions": [
                 "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
                 "Aplicación de escritorio",
-                "MVC (Modelo - Vista - Controlador)",
-                "Java SE<br>MS-DOS commands",
+                "Basada en capas",
+                "Java SE<br>MS-DOS commands<br>RegEx",
                 "Swing<br>Apache Commons"
             ]
         }
@@ -165,7 +165,7 @@
             "theme": "2",
             "type": "2",
             "title": "Compilador C",
-            "decription": "Permite observar los primeros 10 mejores puntajes obtenidos en todo el juego ordenados, por supuesto, del mejor al peor. Estos puntajes se obtienen por características como romper bloques, matar tanques y ganar banderas.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje C. Debido a que C no soporta Clases el algoritmo toma como metodo a ejecutar la primera función del archivo. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
             "image": "/Images/trimcode4.png"
         }
     },
@@ -175,7 +175,7 @@
             "theme": "1",
             "type": "1",
             "title": "Compilador C++",
-            "decription": "Al entrar en esta pantalla se ingresan los nombres de los dos jugadores y automáticamente se crea un escenario aleatorio de muros, piedras, huecos y agua. Los dos jugadores juegan desde el teclado cada uno con sus respectivas teclas (Jugador 1 teclas W,A,S,D y G y jugador 2 teclas 5,1,2,3 y 0). Los jugadores pueden disparar hacia los muros para intentar romperlos o hacia el contrincante. Cada muro tiene una resistencia particular, desde el mas débil al mas fuerte es: ladrillo, piedra y acero. El agua no la pueden atravesar los tanques pero si las balas. Los tanques también pueden caer en los huecos. Al ser destruido un tanque éste reaparece en su base.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje C++. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
             "image": "/Images/trimcode5.png"
         }
     },
@@ -185,7 +185,7 @@
             "theme": "3",
             "type": "2",
             "title": "Compilador Java",
-            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje Java. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
             "image": "/Images/trimcode6.png"
         }
     },
@@ -195,7 +195,7 @@
             "theme": "2",
             "type": "1",
             "title": "Compilador JavaScript",
-            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje JavaScript. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
             "image": "/Images/trimcode7.png"
         }
     },
@@ -205,7 +205,7 @@
             "theme": "1",
             "type": "2",
             "title": "Compilador Python",
-            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje Python. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas en consola solo las devuleve hasta el final de la ejecución o hasta que realiza una lectura en consola.)",
             "image": "/Images/trimcode9.png"
         }
     },
@@ -215,7 +215,7 @@
             "theme": "3",
             "type": "1",
             "title": "Compilador MatLab",
-            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje MatLab. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
             "image": "/Images/trimcode8.png"
         }
     },  
@@ -238,9 +238,9 @@
                 "Formalización"
             ],
             "subdescriptions": [
-                "Esta aplicación se creó enfocada a aplicar los conocimientos aprendidos en la materia de programación básica. Por lo tanto se pensó en una problemática en la cual se pudieran aplicar las estructuras básicas de programación tales como condicionales, ciclos repetitivos y recursividad. Para tal fin se decidió crear como producto un juego.",
-                "El producto se especificó como un juego de batallas multijugador, en el cual dos usuarios pudieran interactuar en el mismo teclado. La idea fue crear un juego con una temática de guerra con \"captura la bandera\" en la cual los jugadores pudieran conducir sus propios tanques y dispararlos en un tablero de batalla.",
-                "Se identificaron requisitos funcionales y no funcionales, orientados a desarrollar este producto, tales como;  permitir a cada jugador controlar sus propio tanque, permitir a un tanque robar una bandera enemiga, permitir a un tanque romper muros, mostrar un panel de información y utilizar JAVA SE como lenguaje de programación."
+                "Este problema fue identificado en mi situación particular de programador. Debido a que a medida que iba avanzando en mi carrera la cantidad de codigos que iba realizando en distintos lenguajes se iba haciendo cada vez mas grande. Esto llegó a un punto en el que cuando necesitaba reutilizar algun codigo que ya habia utilizado antes no me era fácil encontrarlo o ya estaba demasiado modificado como para utilizarlo facilmente. Adicionalmente yo suelo trabajar mucho con los archivos del sistema para organizar mis codigos por lo que poder ejecutar intruciones de gestionamiento de archivos personalizadas fuera de los entornos de desarrollo seria muy practico para mí y quizas para muchos otros programadores.",
+                "Esta aplicación se creó pensando en lograr una integración de distintos lenguajes de programación que le permitiera a los programadores crear, aislar, organizar, editar y ejecutar sus propios códigos de una forma muy práctica. Para este fin se tuvieron que tener en cuenta varios aspectos como la gran cantidad de lenguajes que existen y que son fuertemente utilizados por la comunidad de programadores o la forma de manejo que se debería emplear para que la aplicación fuera realmente accesible.",
+                "Se identificaron requisitos funcionales y no funcionales, orientados a desarrollar este producto, tales como; crear una clase abstracta de compilación que permita la integración de nuevos lenguajes de programación de la forma mas sencilla posible; crear un filtro que permita encontrar codigos de acuerdo al nombre, el leguaje y el contendido; o identificar automaticamente los compiladores de cada lenguaje."
             ],
             "images": [
                 "/Images/quicklist63.jpg",
@@ -257,18 +257,15 @@
             "decription": "",
             "subtitles": [
                 "Arquitectura",
-                "Detalle",
                 "Interfaz"
             ],
             "subdescriptions": [
-                "Se realizó una separación entre los controladores del juego, sus componentes gráficos (que en su gran mayoría fueron imágenes diseñadas como objetos del juego), los sonidos del juego y el almacenamiento de información. Esta arquitectura no requirió de ningún componente externo a la aplicación.",
-                "Se empleó un patrón de secuencia muy utilizado en videojuegos llamado GameLoop. Consiste en crear un ciclo repetitivo que no para hasta la finalización del juego. Dentro de este ciclo se realizaron 4 divisiones: eventos, actualizar, pintar y esperar. En los eventos se realizó la detección del mouse y del teclado y sus respectivas acciones. En actualizar se establecieron los cambios que se deben realizar en cada ciclo, como el movimiento del tanque y las balas.  En pintar se estableció la actualización de la vista de los componentes. Por ultimo en esperar se definió un tiempo de congelamiento muy pequeño para que el usuario perciba los cambios adecuadamente.",
-                "Se definió el tablero de juego como una cuadricula en la cual se pudieran ubicar diferentes tipos de objetos para generar obstáculos. También se estableció el panel de información en la parte superior del tablero. Por ultimo se definieron los menús de la aplicación como listas con una fuente personalizada acorde a la temática de guerra así como los fondos."
+                "Se diseñó una arquitectura por capas debido a que por el momento en el proyecto no se realiza ningun tipo de conexión a bases de datos, por lo tanto una arquitectura mas especifica como MVC habria sido inadecudada. Esta arquitectura por capas se separó en la vista, los controladores y los datos.",
+                "Los diseños de la interfaz se realizaron emplenado el modo gráfico de Netbeans para ubicar facilemente los componentes y definir las esctructura que deberia tener. Se diseñó la pantalla principal en donde se listarían los códigos, la pantalla de configuración para los directorios y compiladores, la pantalla de ejecución para los códigos y una pantalla axilizar para notificaciones, confirmaciones y demás."
             ],
             "images": [
-                "/Images/tankAttack12.png",
-                "/Images/tankAttack13.png",
-                "/Images/tankAttack14.png"
+                "/Images/trimcode14.png",
+                "/Images/trimcode15.png"
             ]
         }
     },
@@ -284,9 +281,9 @@
                 "Control"
             ],
             "subdescriptions": [
-                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio.",
-                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código. También se hizo uso de una herramienta de diseño gráfico llamada PhotoShop para crear y modificar las imágenes del juego. Por ultimo se empleó una herramienta web llamada CoolText para generar las imágenes de los textos con temática de guerra.",
-                "Como herramienta de control de versiones y para poder dividir adecuadamente las tareas a realizar se empleó GitHub. Se creó una rama de desarrollo sobre el Master y en esta rama se crearon otras dos ramas para que los dos desarrolladores pudieran realizar sus tareas sin complicaciones de integración posterior."
+                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó RegEx para realizar el control de la sintaxis de cada lenguaje al extraer  información de las clases, los parametros y los comentarios. También se utilizaron MS-DOS commands para controlar los comiliadores de los distintos lenguajes integrados, redireccionar la consola a la aplicación y utilizar el editor de codigo preferido del usuario.",
+                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y emplear una gran cantidad de herramientas de programación gráfica y control de eventos. También se hizo uso de la herramienta PhotoShop para crear y modificar las imágenes de los iconos. Se empleó Swing para los componentes de gráficos y Apache commons para el manejo apropiado del sistema de archivos.",
+                "Como herramienta de control de versiones GitHub. Debido a que es un proyecto individual se empleó la rama Master para ir registrando la actualización de cada elemento del sistema."
             ],
             "images": [
                 "/Images/tankAttack15.jpg",
@@ -307,9 +304,9 @@
                 "Verificación"
             ],
             "subdescriptions": [
-                "Para determinar la correcta ejecución de toda la aplicación se establecieron pruebas de flujo (para las pantallas) y pruebas de control (para las funcionalidades del la partida) acordes con los requerimientos ya definidos.",
-                "En las pruebas de flujo se tomó la estructura definida en el diseño para recorrer las pantallas de aplicación y se realizaron diferentes recorridos en ejecución. En las pruebas de control se realizaron diferentes partidas en ejecución en donde se realizó una prueba por cada botón de los controles.",
-                "El flujo de la aplicación no presentó ningún problema sin embargo en las pruebas de control si se identificaron varios errores. Errores como que al disparar la bala del tanque ésta atravesaba algunos muros cuando estaba muy cerca del borde. Al corregir los errores identificados se volvieron a realizar las pruebas hasta que ya no se identificaron mas errores."
+                "Para determinar la correcta ejecución de toda la aplicación se establecieron pruebas de flujo (para las pantallas) y pruebas de control (para las funcionalidades del los componentes) acordes con los requerimientos ya definidos.",
+                "En las pruebas de flujo se tomó la estructura definida en el diseño para recorrer las pantallas de aplicación y se realizaron diferentes recorridos en ejecución. En las pruebas de control se realizaron diferentes tipos de codigos para cada lenguaje y analizó si el sistema repondia correctamente a cada estructura de codigo",
+                "En las pruebas de los componentes del sistema se realizaron varias correcciones respecto a los botones debido a que el uso de diferentes pantallas e hijos generaban algunos conflictos con algunas funcionalidades. También se realizaron varias correcciones en la interfáz de lenguajes debido a que algunos de los lenguajes presentaban comportamientos inesperados que rompian la funcionalidad completa de algunos lenguajes como la entrada por consola o las pausas en el proceso de ejecución."
             ],
             "images": [
                 "/Images/quicklist70.png",
@@ -330,7 +327,7 @@
         "info": {
             "theme": "1",
             "title": "",
-            "decription": "Al desarrollar este proyecto, empleando matrices, ciclos repetitivos, condicionales, combinando todo esto con una interfaz gráfica, comprendí a mayor profundidad como lograr que diferentes estructuras de código interactuen para un objetivo conjunto. Comprendí que es posible utilizar librerías y herramientas externas para lograr interfaces gráficas mas complejas y de una manera más fácil. Hubieron algunos inconvenientes a la hora de implementar la partida con el GameLoop puesto que cada objeto debía tener independencia de los demás y fue un poco confuso al inicio. También aprendí por primera vez a incluir sonidos en aplicaciones, lo cual puede ser de mucha utilidad en el futuro. En general fue interesante desarrollar un videojuego, pude darme cuenta de la gran cantidad de elementos programáticos que se requieren para hacerlo y se que todo este conocimiento podré emplearlo a futuro en proyectos mas complejos."
+            "decription": "Al desarrollar este proyecto me pude dar cuenta de lo útil que puede llegar a ser el manejo de la linea de comandos del sistema operativo para manejar apliaciones y controlar otros lenguajes de programación a través del código. Tambíen me di cuenta de mucho que se simplifica el control de la sintaxis de un lenguaje al manejar expresiones regulares. Es la primera vez que utilicé clases abractas e interfaces para unificar comportamientos comunes y realemente estoy muy satisfecho con los resultados, son estructuras bastante felxibles que facilitan mucho la prgramación."
         }
     }
 ]
