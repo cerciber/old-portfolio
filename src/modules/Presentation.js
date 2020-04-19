@@ -45,9 +45,9 @@ class Presentation extends React.Component {
   render() {
     return (
       <div class="module"  style={{ background: this.state.background }}>
-        <div class="presentation-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
-        <div class="presentation-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
-        this.props.info.decription}}></div>
+        {this.props.info.title !== "" &&<div class="presentation-title" style={{ color: this.state.title }}>{this.props.info.title}</div>}
+        {this.props.info.decription !== "" &&<div class="presentation-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
+        this.props.info.decription}}></div>}
         <div class="presentation-list">
           {this.createList()}
         </div>

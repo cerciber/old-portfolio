@@ -3,7 +3,7 @@
         "type": "title",
         "info": {
             "theme": "5",
-            "title": "TankAttack"
+            "title": "TrimCode"
         }
     },
     {
@@ -13,8 +13,7 @@
             "title": "",
             "decription": "",
             "authors": [
-                "Cesar Augusto Torres Ardila",
-                "Enderson Gonzalo Diaz Muñoz"
+                "Cesar Augusto Torres Ardila"
             ]
         }
     },
@@ -24,8 +23,8 @@
             "theme": "3",
             "type": "2",
             "title": "¿Qué es?",
-            "decription": "TankAttack es un divertidísimo juego multijugador que combina el clásico \"captura la bandera\" con la emoción de los juegos de guerra armada. Consiste en dos tanques, cada uno con su propia base, cuyo objetivo es obtener la bandera de la base enemiga atravesando un terreno lleno de muros, piedras, agujeros y agua con ayuda de un cañón. Los jugadores se verán obligados a enfrentarse entre sí en un duelo de cañones para proteger sus respectivas banderas. Gana el jugador que complete primero la cantidad de victorias especificada.",
-            "image": "/Images/tankAttack1.png"
+            "decription": "TrimCode es una aplicación de escritorio que le permite a los programadores almacenar, organizar, editar y compliar clases de distintos lenguajes de programación. Permite conservar la estructura de las clases intacta y asilada para uso. TrimCode tiene la capacidad de generar una interfáz de compilación para las clases con campos de entrada para los parametros del constructor y un campo de salida para la consola. De esta forma es posbile compilar clases sin un método principal.",
+            "image": "/Images/trimcode1.png"
         }
     },
     {
@@ -35,10 +34,9 @@
             "title": "Vista general",
             "decription": "",
             "images": [
-                "/Images/tankAttack2.png",
-                "/Images/tankAttack3.png",
-                "/Images/tankAttack4.png",
-                "/Images/tankAttack5.png"
+                "/Images/trimcode18.png",
+                "/Images/trimcode16.png",
+                "/Images/trimcode19.png"
             ]
         }
     },
@@ -47,7 +45,7 @@
         "info": {
             "theme": "1",
             "title": "Características del proyecto",
-            "decription": "Proyecto final desarrollado para la materia de Programación orientada a objetos de la Universidad Nacional de Colombia.",
+            "decription": "Este proyecto de iniciativa personal fue creado para permitirle a los desarrolladores acceder y ejecutar facilemente sus propias clases de diferentes lenguajes sin la necesidad de recurir a los distintos entornos de desarrollo o generar ejecutables.",
             "subtitles": [
                 "Equipo:",
                 "Tipo:",
@@ -56,11 +54,11 @@
                 "Tecnologías:"
             ],
             "subdescriptions": [
-                "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia. <br><b>Enderson Gonzalo Díaz Muñoz</b>. Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
+                "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
                 "Aplicación de escritorio",
-                "Se hizo una separación entre las clases, las imágenes, los sonidos y el almacenamiento local.",
-                "Java SE",
-                "Swing"
+                "MVC (Modelo - Vista - Controlador)",
+                "Java SE<br>MS-DOS commands",
+                "Swing<br>Apache Commons"
             ]
         }
     },
@@ -76,9 +74,9 @@
         "info": {
             "theme": "3",
             "type": "1",
-            "title": "Inicio",
-            "decription": "Se muestra la imagen de un tanque alusiva a la temática del juego, el nombre de la aplicación y un botón para entrar al menú principal.",
-            "image": "/Images/tankAttack6.png"
+            "title": "Pantalla principal",
+            "decription": "En esta pantalla se listan todas las clases que el usuario tenga alamecnadas. Cada elemento de la lista es descrito con el nombre del archivo, el lenguaje al que pertenece, los parametros del constructor que exige y la descripción de la clase dada por los comentarios. Adicionalmente permite ingresar nuevas clases, filtrar clases y posee algunos controles de manipulación.",
+            "image": "/Images/trimcode1.png"
         }
     },
     {
@@ -86,9 +84,49 @@
         "info": {
             "theme": "2",
             "type": "2",
-            "title": "Menú principal",
-            "decription": "En esté menú se le brinda a los usuarios la posibilidad de iniciar a jugar con valores de configuración ya determinados o entrar a la configuración a realizar ajustes. También brinda acceso a la sección de máximos puntajes.",
-            "image": "/Images/tankAttack7.png"
+            "title": "Controles",
+            "decription": "El primer boton abre la configuración. Los siguientes 3 botones cumplen con el estandar de ventanas para minimizar, maximizar y cerrar. El siguiente botón abre la ventana para ingresar una nueva clase. El ultimo botón cierra todos los compiladores que se encuentren activos.",
+            "image": "/Images/trimcode22.png"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Ingresar codigo",
+            "decription": "",
+            "subtitles": [
+                "Ingresar",
+                "Buscar"
+            ],
+            "subdescriptions": [
+                "Este campo le permite al usuario ingresar la dirección local de la clase que quiera incluir en la lista. Si la dirección no existe o si el lenguaje no esta soportado el sistema no le permitirá en ingreso.",
+                "También es posible incluir clases a través de una interfaz de busqueda que cumple con los mismos criterios de ingreso del campo."
+            ],
+            "images": [
+                "/Images/trimcode21.png",
+                "/Images/trimcode10.png"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Añadir codigo",
+            "decription": "En esta ventana el usuario puede crear una nueva clase. El usuario ingresa el nombre que tendrá el archivo con su extensión rspectiva del lenguaje. También puede especificar si quiere emplear una plantilla para el lenguaje o si se quiere crear el archivo vacio. Si el nombre del archivo ya existe o si el lenguaje no está soportado no se permitirá la creación.",
+            "image": "/Images/trimcode3.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Filtrar codigo",
+            "decription": "El campo de filtro permite buscar las clases que cumplan con los valores especificados. El filtro permite buscar por el nombre del archivo y también permite realizar un filtro multiple especificando el nombre, el lenguaje (ya sea la extención o el nombre del lenguaje) y la descripción separadas por comas. El filtro se aplica cada vez que el usuario ingresa y elimina un caracter.",
+            "image": "/Images/trimcode11.png"
         }
     },
     {
@@ -97,8 +135,48 @@
             "theme": "1",
             "type": "1",
             "title": "Configuración",
-            "decription": "Aquí se pueden cambiar la resistencia de los tanques especificando el número de balas que pueden soportar. También se puede definir el numero de banderas que se deben conseguir para obtener la victoria.",
-            "image": "/Images/tankAttack8.png"
+            "decription": "Esta ventana es muy importante para el correcto funcionamiento de la aplicación ya que esta es la que permite configurar el directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje. El usuario puede seleccionar la dirección de cada elemento.",
+            "image": "/Images/trimcode2.png"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "3",
+            "title": "Componentes de la configuración",
+            "decription": "",
+            "subtitles": [
+                "Buscar",
+                "Cambiar color"
+            ],
+            "subdescriptions": [
+                "Se pueden especificar las direcciones del directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje a través de un buscador.",
+                "Tambíen se puede cambiar el color general de la aplicación y los colores representativos de cada lenguaje por medió de una ventana de selección de colores que permiten una amplia gama de opciones."
+            ],
+            "images": [
+                "/Images/trimcode10.png",
+                "/Images/trimcode23.png"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Compilador C",
+            "decription": "Permite observar los primeros 10 mejores puntajes obtenidos en todo el juego ordenados, por supuesto, del mejor al peor. Estos puntajes se obtienen por características como romper bloques, matar tanques y ganar banderas.",
+            "image": "/Images/trimcode4.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Compilador C++",
+            "decription": "Al entrar en esta pantalla se ingresan los nombres de los dos jugadores y automáticamente se crea un escenario aleatorio de muros, piedras, huecos y agua. Los dos jugadores juegan desde el teclado cada uno con sus respectivas teclas (Jugador 1 teclas W,A,S,D y G y jugador 2 teclas 5,1,2,3 y 0). Los jugadores pueden disparar hacia los muros para intentar romperlos o hacia el contrincante. Cada muro tiene una resistencia particular, desde el mas débil al mas fuerte es: ladrillo, piedra y acero. El agua no la pueden atravesar los tanques pero si las balas. Los tanques también pueden caer en los huecos. Al ser destruido un tanque éste reaparece en su base.",
+            "image": "/Images/trimcode5.png"
         }
     },
     {
@@ -106,9 +184,9 @@
         "info": {
             "theme": "3",
             "type": "2",
-            "title": "Máximos puntajes",
-            "decription": "Permite observar los primeros 10 mejores puntajes obtenidos en todo el juego ordenados, por supuesto, del mejor al peor. Estos puntajes se obtienen por características como romper bloques, matar tanques y ganar banderas.",
-            "image": "/Images/tankAttack9.png"
+            "title": "Compilador Java",
+            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "image": "/Images/trimcode6.png"
         }
     },
     {
@@ -116,9 +194,9 @@
         "info": {
             "theme": "2",
             "type": "1",
-            "title": "Pantalla de juego",
-            "decription": "Al entrar en esta pantalla se ingresan los nombres de los dos jugadores y automáticamente se crea un escenario aleatorio de muros, piedras, huecos y agua. Los dos jugadores juegan desde el teclado cada uno con sus respectivas teclas (Jugador 1 teclas W,A,S,D y G y jugador 2 teclas 5,1,2,3 y 0). Los jugadores pueden disparar hacia los muros para intentar romperlos o hacia el contrincante. Cada muro tiene una resistencia particular, desde el mas débil al mas fuerte es: ladrillo, piedra y acero. El agua no la pueden atravesar los tanques pero si las balas. Los tanques también pueden caer en los huecos. Al ser destruido un tanque éste reaparece en su base.",
-            "image": "/Images/tankAttack10.png"
+            "title": "Compilador JavaScript",
+            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "image": "/Images/trimcode7.png"
         }
     },
     {
@@ -126,11 +204,21 @@
         "info": {
             "theme": "1",
             "type": "2",
-            "title": "Pantalla de juego",
+            "title": "Compilador Python",
             "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
-            "image": "/Images/tankAttack11.png"
+            "image": "/Images/trimcode9.png"
         }
     },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Compilador MatLab",
+            "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
+            "image": "/Images/trimcode8.png"
+        }
+    },  
     {
         "type": "title",
         "info": {
