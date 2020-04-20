@@ -2,7 +2,6 @@
 // Importaciones
 import React from 'react';      // React
 import './Structure.css';
-import * as Constants from './../Information/Constants';
 import Content from './../Content/Content'
 
 class Structure extends React.Component {
@@ -10,10 +9,6 @@ class Structure extends React.Component {
   constructor(props) {
     super(props);
     this.state = { scene: props.scene }
-  }
-
-  changeScene(val) {
-    this.setState({ scene: val });
   }
 
   render() {
@@ -39,15 +34,15 @@ class Structure extends React.Component {
         </div>
         <nav class="tabs">
           <ul>
-          <li class="tab" onClick={() => this.changeScene(Constants.CONTACT_SCENE)}>Contacto</li> 
-            <li class="tab" onClick={() => this.changeScene(Constants.ABOUT_ME_SCENE)}>Acerca de mí</li>
+          <li class="tab" onClick={event =>  window.location.href='/contact'}>Contacto</li> 
+            <li class="tab" onClick={event =>  window.location.href='/about-me'}>Acerca de mí</li>
             <div class="tab"> 
-              <li class="tabContent" onClick={() => this.changeScene(Constants.PORTFOLIO_SCENE)}>Portafolio</li>
+              <li class="tabContent" onClick={event =>  window.location.href='/'}>Portafolio</li>
               <ul class="subtabs">
-                <li class="subtab" onClick={() => this.changeScene(Constants.TRIM_CODE_SCENE)}>TrimCode</li>
-                <li class="subtab" onClick={() => this.changeScene(Constants.QUICK_LIST_SCENE)}>QuickList</li>
-                <li class="subtab" onClick={() => this.changeScene(Constants.FIND_CODE_SCENE)}>FindCode</li>
-                <li class="subtab" onClick={() => this.changeScene(Constants.TANK_ATTACT_SCENE)}>TankAttack</li>
+                <li class="subtab" onClick={event =>  window.location.href='/portfolio/trimcode'}>TrimCode</li>
+                <li class="subtab" onClick={event =>  window.location.href='/portfolio/quicklist'}>QuickList</li>
+                <li class="subtab" onClick={event =>  window.location.href='/portfolio/findcode'}>FindCode</li>
+                <li class="subtab" onClick={event =>  window.location.href='/portfolio/tankattack'}>TankAttack</li>
               </ul>
             </div>
           </ul>

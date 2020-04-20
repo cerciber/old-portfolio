@@ -11,7 +11,6 @@ class App extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={() => <Structure scene={Constants.PORTFOLIO_SCENE}/>}/>
-        <Route exact path="/portfolio" component={() => <Structure scene={Constants.PORTFOLIO_SCENE} />}/>
         <Route exact path="/about-me" component={() => <Structure scene={Constants.ABOUT_ME_SCENE} />}/>
         <Route exact path="/contact" component={() => <Structure scene={Constants.CONTACT_SCENE} />}/>
         <Route exact path="/portfolio/trimcode" component={() => <Structure scene={Constants.TRIM_CODE_SCENE} />}/>
