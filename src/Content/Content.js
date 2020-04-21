@@ -9,6 +9,7 @@ import portfolios from "./../Information/portfolios.json";
 import quicklist from "./../Information/quicklist.json";
 import tankattack from "./../Information/tankattack.json";
 import trimcode from "./../Information/trimcode.json";
+import structfile from "./../Information/structfile.json";
 import Characteristics from "./../modules/Characteristics";
 import Description from "./../modules/Description";
 import DescriptionImage from "./../modules/DescriptionImage";
@@ -48,6 +49,9 @@ class Content extends React.Component {
         break;
       case Constants.TANK_ATTACT_SCENE:
         this.state = { jsonContent: tankattack };
+        break;
+      case Constants.STRUCT_FILE_SCENE:
+        this.state = { jsonContent: structfile };
         break;
     }
 

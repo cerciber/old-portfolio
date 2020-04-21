@@ -1,0 +1,324 @@
+[
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "SctuctFile"
+        }
+    },
+    {
+        "type": "presentation",
+        "info": {
+            "theme": "1",
+            "title": "",
+            "decription": "",
+            "authors": [
+                "Cesar Augusto Torres Ardila"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "¿Qué es?",
+            "decription": "SctuctFile es un lenguaje de programación de propósito dedicado orientado al tratamiento de directorios, archivos y texto plano. El lenguaje toma como base el manejo de expresiones regulares para estructurar la información y permite reorganizarla y cambiarla directamente a partir de coincidencias.",
+            "image": "/Images/structfile1.png"
+        }
+    },
+    {
+        "type": "images",
+        "info": {
+            "theme": "2",
+            "title": "Vista general",
+            "decription": "",
+            "images": [
+                "/Images/structfile43.png",
+                "/Images/structfile12.png",
+                "/Images/structfile19.png",
+                "/Images/structfile8.png"
+            ]
+        }
+    },
+    {
+        "type": "characteristics",
+        "info": {
+            "theme": "1",
+            "title": "Características del proyecto",
+            "decription": "Este proyecto, desarrollado para la materia de lenguajes de programación, fue creado con el objetivo de permitirle a los programadores trabajar de una forma mas fácil con información no estructurada almacenada en archivos de texto plano. La idea es elminar todo el proceso de acceso para acceder a los archivos del sistema, a su información y al manejo de expresiones regulares que presentan los lenguajes de progrmación en general.",
+            "subtitles": [
+                "Equipo:",
+                "Tipo:",
+                "Arquitectura:",
+                "Lenguajes:",
+                "Tecnologías:"
+            ],
+            "subdescriptions": [
+                "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
+                "Lenguaje de programación",
+                "Basada en capas",
+                "Java SE<br>Python<br>RegEx",
+                "ANTLR<br>Numpy"
+            ]
+        }
+    },
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Funcionamiento"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Tipos de datos (Numeros)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de numeros llamado 'num' el cual almacena valores enteros y reales. Si el numero no tiene parte decimal se considera entero y si la tiene se considera real.",
+            "image": "/Images/structfile2.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Tipos de datos (Boleanos)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de booleanos llamado 'bol'. Almacena un valor verdadero (true) o falso (false).",
+            "image": "/Images/structfile3.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Tipos de datos (Texto)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de texto llamado 'tex'. Almacena cadenas de texto y expresiones regulares. Utiliza comillas dobles para tomar caracteres especiales y comillas simples para no hacerlo. Admite cadena de texto en varias líneas. Contiene métodos especializados en el tratamiento de texto con expresiones regulares y por numeración.",
+            "image": "/Images/structfile4.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Tipos de datos (Archivo)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de archivos llamado 'fil'. ",
+            "image": "/Images/structfile5.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Filtrar codigo",
+            "decription": "El campo de filtro permite buscar las clases que cumplan con los valores especificados. El filtro permite buscar por el nombre del archivo y también permite realizar un filtro multiple especificando el nombre, el lenguaje (ya sea la extención o el nombre del lenguaje) y la descripción separadas por comas. El filtro se aplica cada vez que el usuario ingresa y elimina un caracter.",
+            "image": "/Images/trimcode11.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Configuración",
+            "decription": "Esta ventana es muy importante para el correcto funcionamiento de la aplicación ya que esta es la que permite configurar el directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje. El usuario puede seleccionar la dirección de cada elemento.",
+            "image": "/Images/trimcode2.png"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "3",
+            "title": "Componentes de la configuración",
+            "decription": "",
+            "subtitles": [
+                "Buscar",
+                "Cambiar color"
+            ],
+            "subdescriptions": [
+                "Se pueden especificar las direcciones del directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje a través de un buscador.",
+                "Tambíen se puede cambiar el color general de la aplicación y los colores representativos de cada lenguaje por medió de una ventana de selección de colores que permiten una amplia gama de opciones."
+            ],
+            "images": [
+                "/Images/trimcode10.png",
+                "/Images/trimcode23.png"
+            ]
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Compilador C",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje C. Debido a que C no soporta Clases el algoritmo toma como metodo a ejecutar la primera función del archivo. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
+            "image": "/Images/trimcode4.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Compilador C++",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje C++. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
+            "image": "/Images/trimcode5.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Compilador Java",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje Java. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
+            "image": "/Images/trimcode6.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Compilador JavaScript",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje JavaScript. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
+            "image": "/Images/trimcode7.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Compilador Python",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje Python. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas en consola solo las devuleve hasta el final de la ejecución o hasta que realiza una lectura en consola.)",
+            "image": "/Images/trimcode9.png"
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Compilador MatLab",
+            "decription": "Este compilador permite ejecutar archivos del lenguaje MatLab. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
+            "image": "/Images/trimcode8.png"
+        }
+    },  
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Proceso de creación"
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "2",
+            "title": "Planeación",
+            "decription": "",
+            "subtitles": [
+                "Identificación",
+                "Descripción",
+                "Formalización"
+            ],
+            "subdescriptions": [
+                "Este problema fue identificado en mi situación particular de programador. Debido a que a medida que iba avanzando en mi carrera la cantidad de codigos que iba realizando en distintos lenguajes se iba haciendo cada vez mas grande. Esto llegó a un punto en el que cuando necesitaba reutilizar algun codigo que ya habia utilizado antes no me era fácil encontrarlo o ya estaba demasiado modificado como para utilizarlo facilmente. Adicionalmente yo suelo trabajar mucho con los archivos del sistema para organizar mis codigos por lo que poder ejecutar intruciones de gestionamiento de archivos personalizadas fuera de los entornos de desarrollo seria muy practico para mí y quizas para muchos otros programadores.",
+                "Esta aplicación se creó pensando en lograr una integración de distintos lenguajes de programación que le permitiera a los programadores crear, aislar, organizar, editar y ejecutar sus propios códigos de una forma muy práctica. Para este fin se tuvieron que tener en cuenta varios aspectos como la gran cantidad de lenguajes que existen y que son fuertemente utilizados por la comunidad de programadores o la forma de manejo que se debería emplear para que la aplicación fuera realmente accesible.",
+                "Se identificaron requisitos funcionales y no funcionales, orientados a desarrollar este producto, tales como; crear una clase abstracta de compilación que permita la integración de nuevos lenguajes de programación de la forma mas sencilla posible; crear un filtro que permita encontrar codigos de acuerdo al nombre, el leguaje y el contendido; o identificar automaticamente los compiladores de cada lenguaje."
+            ],
+            "images": [
+                "/Images/quicklist63.jpg",
+                "/Images/quicklist64.jpg",
+                "/Images/quicklist65.jpg"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Diseño",
+            "decription": "",
+            "subtitles": [
+                "Arquitectura",
+                "Interfaz"
+            ],
+            "subdescriptions": [
+                "Se diseñó una arquitectura por capas debido a que por el momento en el proyecto no se realiza ningun tipo de conexión a bases de datos, por lo tanto una arquitectura mas especifica como MVC habria sido inadecudada. Esta arquitectura por capas se separó en la vista, los controladores y los datos.",
+                "Los diseños de la interfaz se realizaron emplenado el modo gráfico de Netbeans para ubicar facilemente los componentes y definir las esctructura que deberia tener. Se diseñó la pantalla principal en donde se listarían los códigos, la pantalla de configuración para los directorios y compiladores, la pantalla de ejecución para los códigos y una pantalla axilizar para notificaciones, confirmaciones y demás."
+            ],
+            "images": [
+                "/Images/trimcode14.png",
+                "/Images/trimcode15.png"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "3",
+            "title": "Desarrollo",
+            "decription": "",
+            "subtitles": [
+                "Lenguajes",
+                "Entorno y tecnologías",
+                "Control"
+            ],
+            "subdescriptions": [
+                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó RegEx para realizar el control de la sintaxis de cada lenguaje al extraer  información de las clases, los parametros y los comentarios. También se utilizaron MS-DOS commands para controlar los comiliadores de los distintos lenguajes integrados, redireccionar la consola a la aplicación y utilizar el editor de codigo preferido del usuario.",
+                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y emplear una gran cantidad de herramientas de programación gráfica y control de eventos. También se hizo uso de la herramienta PhotoShop para crear y modificar las imágenes de los iconos. Se empleó Swing para los componentes de gráficos y Apache commons para el manejo apropiado del sistema de archivos.",
+                "Como herramienta de control de versiones GitHub. Debido a que es un proyecto individual se empleó la rama Master para ir registrando la actualización de cada elemento del sistema."
+            ],
+            "images": [
+                "/Images/tankAttack15.jpg",
+                "/Images/quicklist68.jpg",
+                "/Images/quicklist69.png"
+            ]
+        }
+    },
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "2",
+            "title": "Pruebas",
+            "decription": "",
+            "subtitles": [
+                "Planeación",
+                "Ejecución",
+                "Verificación"
+            ],
+            "subdescriptions": [
+                "Para determinar la correcta ejecución de toda la aplicación se establecieron pruebas de flujo (para las pantallas) y pruebas de control (para las funcionalidades del los componentes) acordes con los requerimientos ya definidos.",
+                "En las pruebas de flujo se tomó la estructura definida en el diseño para recorrer las pantallas de aplicación y se realizaron diferentes recorridos en ejecución. En las pruebas de control se realizaron diferentes tipos de codigos para cada lenguaje y analizó si el sistema repondia correctamente a cada estructura de codigo",
+                "En las pruebas de los componentes del sistema se realizaron varias correcciones respecto a los botones debido a que el uso de diferentes pantallas e hijos generaban algunos conflictos con algunas funcionalidades. También se realizaron varias correcciones en la interfáz de lenguajes debido a que algunos de los lenguajes presentaban comportamientos inesperados que rompian la funcionalidad completa de algunos lenguajes como la entrada por consola o las pausas en el proceso de ejecución."
+            ],
+            "images": [
+                "/Images/quicklist70.png",
+                "/Images/tankattack15.png",
+                "/Images/quicklist71.jpg"
+            ]
+        }
+    },
+    {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Opinión"
+        }
+    },
+    {
+        "type": "description",
+        "info": {
+            "theme": "1",
+            "title": "",
+            "decription": "Al desarrollar este proyecto me pude dar cuenta de lo útil que puede llegar a ser el manejo de la linea de comandos del sistema operativo para manejar apliaciones y controlar otros lenguajes de programación a través del código. Tambíen me di cuenta de mucho que se simplifica el control de la sintaxis de un lenguaje al manejar expresiones regulares. Es la primera vez que utilicé clases abractas e interfaces para unificar comportamientos comunes y realemente estoy muy satisfecho con los resultados, son estructuras bastante felxibles que facilitan mucho la prgramación."
+        }
+    }
+]

@@ -3,6 +3,7 @@
 import React from 'react';      // React
 import './Structure.css';
 import Content from './../Content/Content'
+import * as Constants from './../Information/Constants';
 
 class Structure extends React.Component {
 
@@ -10,6 +11,8 @@ class Structure extends React.Component {
     super(props);
     this.state = { scene: props.scene }
   }
+
+
 
   render() {
     return (
@@ -37,15 +40,16 @@ class Structure extends React.Component {
         </div>
         <nav class="tabs">
           <ul>
-          <li class="tab" onClick={event =>  window.location.href='/contact'}>Contacto</li> 
-            <li class="tab" onClick={event =>  window.location.href='/about-me'}>Acerca de mí</li>
+          <li class="tab" onClick={() => this.setState({scene: Constants.CONTACT_SCENE})}>Contacto</li> 
+            <li class="tab" onClick={() => this.setState({scene: Constants.ABOUT_ME_SCENE})}>Acerca de</li>
             <div class="tab"> 
-              <li class="tabContent" onClick={event =>  window.location.href='/Portfolio'}>Portafolio</li>
+              <li class="tabContent" onClick={() => this.setState({scene: Constants.PORTFOLIO_SCENE})}>Portafolio</li>
               <ul class="subtabs">
-                <li class="subtab" onClick={event =>  window.location.href='/portfolio/trimcode'}>TrimCode</li>
-                <li class="subtab" onClick={event =>  window.location.href='/portfolio/quicklist'}>QuickList</li>
-                <li class="subtab" onClick={event =>  window.location.href='/portfolio/findcode'}>FindCode</li>
-                <li class="subtab" onClick={event =>  window.location.href='/portfolio/tankattack'}>TankAttack</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.TRIM_CODE_SCENE})}>TrimCode</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.QUICK_LIST_SCENE})}>QuickList</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.FIND_CODE_SCENE})}>FindCode</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.STRUCT_FILE_SCENE})}>StructFile</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.TANK_ATTACT_SCENE})}>TankAttack</li>
               </ul>
             </div>
           </ul>
