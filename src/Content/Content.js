@@ -95,7 +95,7 @@ class Content extends React.Component {
   }
 
   render() {
-    return <div>{this.createContent()}</div>;
+    return <div class="content">{this.createContent()}</div>;
   }
 
 }

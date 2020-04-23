@@ -15,7 +15,10 @@ class Structure extends React.Component {
   callback = (dataFromChild) => {
     this.setState({scene: dataFromChild})
     window.scrollTo(0, 0)
+  }
 
+  changeTheme(e){
+    document.documentElement.style.setProperty('--base', "blue");
   }
 
   render() {
@@ -60,7 +63,7 @@ class Structure extends React.Component {
             </div>
           </ul>
         </nav>
-        <div class="content">
+        <div>
           <Content callbackFromParent={this.callback} scene={this.state.scene}></Content>
         </div>
       </div>
