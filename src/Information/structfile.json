@@ -558,17 +558,10 @@
         }
     },
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Opinión"
-        }
-    },
-    {
         "type": "description",
         "info": {
             "theme": "1",
-            "title": "",
+            "title": "Opinión",
             "decription": "Crear un lenguaje de programación es un de los desarrollos mas largos y complicados que he realizado puesto que involucra muchos conceprtos a nivel teórico y práctico como el manejo de autómatas, expresiones regulaes, gramáticas, grafos entre muchos otros. Realmente fue un proceso muy extenso identificar y controlar cada pequeño componente del lenguaje para que cumpliera su función. Aún asi ANTLR es una herramienta muy útil que reduce en gran medida la complejidad del código a la hora de realizar lenguajes de programación. Aún se necesita continuar trabajando en el lenguaje para que este pueda ejercer su funcionalidad de forma mas amplia y optima. Sin embargo estoy muy satisfecho con los resultados y el conocimiento que adquirí en este proyecto ya que me ha dado una visión mucho mas amplia de todo lo que se puede llegar a desarrollar empleando este tipo de tecnologías."
         }
     }

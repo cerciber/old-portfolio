@@ -8,22 +8,22 @@ class Slides extends React.Component {
     super(props);
     switch (this.props.info.theme) {
       case "1":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color1)", background: "var(--color6)" };
+        this.state = {actual: 0, title: "var(--color2)", text: "var(--color1)", background: "var(--color6)" };
         break;
       case "2":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color1)", background: "var(--color5)" };
+        this.state = {actual: 0, title: "var(--color3)", text: "var(--color1)", background: "var(--color5)" };
         break;
       case "3":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color1)", background: "var(--color4)" };
+        this.state = {actual: 0, title: "var(--color2)", text: "var(--color1)", background: "var(--color4)" };
         break;
       case "4":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color1)", background: "var(--color3)" };
+        this.state = {actual: 0, title: "var(--color4)", text: "var(--color1)", background: "var(--color3)" };
         break;
       case "5":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color6)", background: "var(--color2)" };
+        this.state = {actual: 0, title: "var(--color4)", text: "var(--color6)", background: "var(--color2)" };
         break;
       case "6":
-        this.state = {actual: 0, title: "var(--color7)", text: "var(--color7)", background: "var(--color1)" };
+        this.state = {actual: 0, title: "var(--color4)", text: "var(--color7)", background: "var(--color1)" };
         break;
     }
     
@@ -60,7 +60,7 @@ class Slides extends React.Component {
   render() {
     return (
       <div class="module"  style={{ background: this.state.background }}>
-        <div class="moduleTitle" style={{ color: this.state.title }}>{this.props.info.title}</div>
+        <div class="moduleTitle" style={{ color: "var(--color7)" }}>{this.props.info.title}</div>
         <div class="slides-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
         this.props.info.decription}}></div>
         <div class="slides-content">

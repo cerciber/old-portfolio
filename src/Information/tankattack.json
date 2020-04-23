@@ -224,17 +224,10 @@
         }
     },
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Opinión"
-        }
-    },
-    {
         "type": "description",
         "info": {
             "theme": "1",
-            "title": "",
+            "title": "Opinión",
             "decription": "Al desarrollar este proyecto, empleando matrices, ciclos repetitivos, condicionales, combinando todo esto con una interfaz gráfica, comprendí a mayor profundidad como lograr que diferentes estructuras de código interactuen para un objetivo conjunto. Comprendí que es posible utilizar librerías y herramientas externas para lograr interfaces gráficas mas complejas y de una manera más fácil. Hubieron algunos inconvenientes a la hora de implementar la partida con el GameLoop puesto que cada objeto debía tener independencia de los demás y fue un poco confuso al inicio. También aprendí por primera vez a incluir sonidos en aplicaciones, lo cual puede ser de mucha utilidad en el futuro. En general fue interesante desarrollar un videojuego, pude darme cuenta de la gran cantidad de elementos programáticos que se requieren para hacerlo y se que todo este conocimiento podré emplearlo a futuro en proyectos mas complejos."
         }
     }

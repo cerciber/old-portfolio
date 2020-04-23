@@ -5,7 +5,7 @@
     --color2: rgb(27, 116, 67);
     --color3: rgb(30, 161, 83);
     --color8: rgb(40, 199, 103);
-    --color4: rgb(244, 255, 195);
+    --color4: rgb(231, 255, 204);
     --color5: rgb(255, 253, 220);
     --color6: rgb(253, 255, 236);
     --color7: rgb(251, 255, 239);
@@ -16,7 +16,6 @@
     --fontWeight: bold;
     --fontFamily: 'Helvetica', 'Arial', sans-serif;
   }
-  
 
 * {
     box-sizing: border-box;
@@ -32,6 +31,8 @@ br {
 
 img {
     min-width: 300px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 a {
@@ -180,7 +181,10 @@ body {
 
 .content {
     margin-top: -25px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1px;
     background: linear-gradient(to right,var(--color4),var(--color3));
     box-shadow: 9px 9px 7px -4px var(--color1);
     border-radius: 10px 10px 10px 10px;
@@ -298,6 +302,8 @@ body {
     margin-left: 10px;
     animation: 3s ease-out 0s 1 iconsAnimation;
     transition: width .3s, height .3s;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(3px 3px 3px #222);
 }
 
 .icon:hover {
@@ -361,7 +367,7 @@ body {
     font-size: var(--text3);
     text-align: center;
     color: var(--color1);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .descriptionImage {
@@ -371,8 +377,22 @@ body {
     margin: 20px;
 }
 
+[class*="col-"] {
+    width: 100%;
+  }
+
+@media only screen and (max-width: 1000px) {
+    .descriptionImage {
+        flex-flow: wrap;
+    }
+}
+
 .descriptionImage-left {
-    margin-right: 30px;
+    margin: 10px;
+}
+
+.descriptionImage-right {
+    margin: 10px;
 }
 
 .moduleTitle {
@@ -393,12 +413,9 @@ body {
     font-size: var(--text3);
     text-align: center;
     color: var(--color1);
-    margin: 20px;
 }
 
 .descriptionImage-image {
-    max-width:100%;
-    max-height:100%;
     box-shadow: 7px 7px 5px -4px var(--color1);
     border-radius: 5px 5px 5px 5px;
 }
@@ -407,42 +424,54 @@ body {
     font-weight: var(--fontWeight);
     font-size: var(--text4);
     color: var(--color2);
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .descriptionImages-description {
     font-size: var(--text3);
     color: var(--color1);
+    padding: 20px;
+    text-align: center;
 }
 
 .descriptionImages-content {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
+    flex: 1 1 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .descriptionImages-content {
+        flex-flow: wrap;
+        flex: 1 1 0px;
+    }
+
 }
 
 .descriptionImages {
-    margin-right: 30px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    margin: 10px;
+    align-items: center;
     justify-content: center;
     flex-flow: wrap;
-    flex: 1 1 0px;
     margin-bottom: 20px;
     margin-top: auto;
+    flex: 1 1 0px;
+    
 }
 
-.descriptionImages:last-child {
-    margin-right: 0px;
+.descriptionImages-imageContent {
+    align-items: center;
+    justify-content: center;
 }
 
 .descriptionImages-image {
     flex-basis: 100%;
     max-width:100%;
     margin-bottom: 10px;
-    min-width: 10px;
+    min-width: 200px;
     box-shadow: 7px 7px 5px -4px var(--color1);
     border-radius: 5px 5px 5px 5px;
 }
@@ -479,6 +508,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
+    padding: 10px;
 }
 
 .images-image-content {
@@ -523,20 +553,20 @@ body {
     font-size: var(--text4);
     text-align: center;
     color: var(--color2);
-    margin-bottom: 20px;
 }
 
 .slides-description {
     font-size: var(--text3);
     text-align: center;
     color: var(--color1);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .slides-imageContent {
     display: flex;
     align-content: center;
     overflow: hidden;
+    margin: 20px;
 }
 
 .slides-image {
@@ -544,7 +574,7 @@ body {
     height:100%;
     box-shadow: 9px 9px 7px -4px var(--color1);
     border-radius: 10px 10px 10px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .slides-left {
@@ -574,14 +604,14 @@ body {
     font-size: var(--text2);
     text-align: center;
     color: var(--color2);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .slides-subdescriptions {
     font-size: var(--text1);
     text-align: center;
     color: var(--color1);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 
@@ -589,6 +619,6 @@ body {
     font-weight: var(--fontWeight);
     font-size: var(--text4);
     color: var(--color2);
-    margin: 20px;
+    margin: 40px;
     text-align: center;
 }

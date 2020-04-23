@@ -309,17 +309,10 @@
         }
     },
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Opinión"
-        }
-    },
-    {
         "type": "description",
         "info": {
             "theme": "1",
-            "title": "",
+            "title": "Opinión",
             "decription": "Al desarrollar este proyecto me pude dar cuenta de lo útil que puede llegar a ser el manejo de la linea de comandos del sistema operativo para manejar apliaciones y controlar otros lenguajes de programación a través del código. Tambíen me di cuenta de mucho que se simplifica el control de la sintaxis de un lenguaje al manejar expresiones regulares. Es la primera vez que utilicé clases abractas e interfaces para unificar comportamientos comunes y realemente estoy muy satisfecho con los resultados, son estructuras bastante felxibles que facilitan mucho la prgramación."
         }
     }

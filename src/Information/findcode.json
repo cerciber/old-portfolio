@@ -234,17 +234,10 @@
         }
     },
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Opinión"
-        }
-    },
-    {
         "type": "description",
         "info": {
             "theme": "1",
-            "title": "",
+            "title": "Opinión",
             "decription": "Al desarrollar este proyecto me pude dar cuenta de la utilidad tan inmensa de la programación orientada a objetos, ya que esta me permitió dar una forma mas intuitiva a las aplicaciones, asociando estructuras de código con elementos del mundo real. Hubieron algunos inconvenientes tales como la asociación de las descripciones con la localización en el código o la sintaxis de un lenguaje de programación en específico. Sin embargo considero que con este proyecto adquirí unas bases lo suficientemente solidas para desarrollar software con el paradigma orientado a objetos ademas de como conectar JAVA con MySQL y trabajar mas a fondo con la GUI de JAVA."
         }
     }

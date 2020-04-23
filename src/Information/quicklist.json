@@ -653,17 +653,10 @@
         }
     },
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Opinión"
-        }
-    },
-    {
         "type": "description",
         "info": {
             "theme": "1",
-            "title": "",
+            "title": "Opinión",
             "decription": "Este proyecto fue el primer sistema de información completo que desarrollé junto a mis compañeros de trabajo. De él aprendí muchísimas cosas acerca de como crear aplicaciones de tipo empresarial. Cosas como trabajar en equipo a nivel de análisis, diseño y desarrollo, también aprendí a integrar lenguajes de programación con lenguajes gestores de bases de datos. Hubieron muchos inconvenientes a la hora de integrar todos los componentes de la aplicación,  pues eran bastantes módulos fuertemente relacionados, sin embargo se logró limitar adecuadamente el proyecto para que cumpliera su funcionalidad y ahora creo que estoy en la capacidad de crear software mucho mas complejo y de forma mas optimizada."
         }
     }
