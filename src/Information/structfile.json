@@ -1,16 +1,9 @@
 [
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "SctuctFile"
-        }
-    },
-    {
         "type": "presentation",
         "info": {
-            "theme": "1",
-            "title": "",
+            "theme": "5",
+            "title": "SctuctFile",
             "decription": "",
             "authors": [
                 "Cesar Augusto Torres Ardila"
@@ -75,7 +68,7 @@
         "info": {
             "theme": "3",
             "type": "1",
-            "title": "Tipos de datos (Numeros)",
+            "title": "Tipos de datos (Números)",
             "decription": "El lenguaje implementa un tipo de dato para el menejo de numeros llamado 'num' el cual almacena valores enteros y reales. Si el numero no tiene parte decimal se considera entero y si la tiene se considera real.",
             "image": "/Images/structfile2.png"
         }
@@ -95,7 +88,7 @@
         "info": {
             "theme": "1",
             "type": "1",
-            "title": "Tipos de datos (Texto)",
+            "title": "Tipos de datos (Textos)",
             "decription": "El lenguaje implementa un tipo de dato para el menejo de texto llamado 'tex'. Almacena cadenas de texto y expresiones regulares. Utiliza comillas dobles para tomar caracteres especiales y comillas simples para no hacerlo. Admite cadena de texto en varias líneas. Contiene métodos especializados en el tratamiento de texto con expresiones regulares y por numeración.",
             "image": "/Images/structfile4.png"
         }
@@ -106,47 +99,125 @@
             "theme": "3",
             "type": "2",
             "title": "Tipos de datos (Archivo)",
-            "decription": "El lenguaje implementa un tipo de dato para el menejo de archivos llamado 'fil'. ",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de archivos llamado 'fil'. Se compone de el nombre del archivo, la extensión y el contenido. Si el nombre o la extensión solo contienen \"a-Z\", \"0-9\" o \"_\" se pueden escribir sin comillas. Admite las propiedades y los métodos del tipo de dato \"tex\".",
             "image": "/Images/structfile5.png"
         }
-    },
+    },  
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Tipos de datos (Directorios)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de directorios llamado 'dir'. Almacena arboles de directorios y archivos. Se puede especificar una única ruta o un árbol de directorios. Se pueden especificar tipos archivos (fil) en el directorio. Si el nombre del los directorios solo contienen \"a-Z\" \"0-9\" o \"_\" se pueden escribir sin comillas. Contiene métodos especializados en el tratamiento de directorios (Acceso, transformación, enumeración, Etc.). ",
+            "image": "/Images/structfile6.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Tipos de datos (Listas)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de listas llamado 'lis'. Almacena una lista de elementos de cualquier tipo.",
+            "image": "/Images/structfile7.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Tipos de datos (Grupos)",
+            "decription": "El lenguaje implementa un tipo de dato para el menejo de Grupos llamado 'gro'. Almacena una lista de elementos del mismo tipo. Cada Elemento tiene asociado un validador de modificación booleano (bol). Permite ejecutar funciones grupales y funciones individuales para cada elemento valido. ",
+            "image": "/Images/structfile8.png"
+        }
+    }, 
     {
         "type": "description-image",
         "info": {
             "theme": "2",
             "type": "2",
-            "title": "Filtrar codigo",
-            "decription": "El campo de filtro permite buscar las clases que cumplan con los valores especificados. El filtro permite buscar por el nombre del archivo y también permite realizar un filtro multiple especificando el nombre, el lenguaje (ya sea la extención o el nombre del lenguaje) y la descripción separadas por comas. El filtro se aplica cada vez que el usuario ingresa y elimina un caracter.",
-            "image": "/Images/trimcode11.png"
+            "title": "Comentarios",
+            "decription": "El lenguaje admite 3 formas de comentar el código, comentarios de una linea con \"#\" y \"//\"  y comentarios de varias lienas con \"/* */\". ",
+            "image": "/Images/structfile9.png"
         }
-    },
+    }, 
     {
         "type": "description-image",
         "info": {
             "theme": "1",
             "type": "1",
-            "title": "Configuración",
-            "decription": "Esta ventana es muy importante para el correcto funcionamiento de la aplicación ya que esta es la que permite configurar el directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje. El usuario puede seleccionar la dirección de cada elemento.",
-            "image": "/Images/trimcode2.png"
+            "title": "Operadores",
+            "decription": "El lenguaje admite operadores para diferentes tipos de datos de forma independiente y combinada. Para datos numericos los operadores funcionan de forma estandar. Para operaciones de texto y archivos el signo  '+' representa concatenación, el signo '-' representa sustracción de coincidencia, el signo '*' significa replicación, el sisgno '/' significa partición de primera coincidencia, el signo '/_' significa partición por cada coincidencia, el simbolo '/' entre texto y numero significa partición en el numero de cadenas especificado en el denominador, entre otras definiciones especficas entre operaciones de tipos.",
+            "image": "/Images/structfile10.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Comparadores",
+            "decription": "El lenguaje admite comparadores para diferentes tipos de datos de forma independiente y combinada. Para datos numericos los comparadores funcionan de forma estandar. Para operaciones con los tipos de datos no numéricos los comparadores actuan en base a la logitud de los elementos. Los valores booleanos son interpretados como 1 para true y 0 para false.",
+            "image": "/Images/structfile11.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Funciones",
+            "decription": "Una de las caracterisiticas fundamentales del lenguaje es poder realizar tratamiento directo de los datos, por lo tanto se definió que las funciones deben tener retorno obligatorio para asegurar la continuidad de las funciones de los tipos al hacer llamado a los métodos. Al crear dos funciones con el mismo nombre sobrevive solo la ultima función creada. Se pueden crear funciones entre funciones y otras estructuras. ",
+            "image": "/Images/structfile12.png"
+        }
+    }, 
+    {
+        "type": "description-images",
+        "info": {
+            "theme": "1",
+            "title": "Condicionales",
+            "decription": "Admite los diferentes condicionales que emplean los lenguajes de programación en forma estandar. En structFile el switch es una versión simplificada y equivalente al condicional multiple y por lo tanto no necesita del 'break'. Las condiciones admiten directamente cualquier tipo de dato debido a que cada uno de ellos tiene su representación booleana. En el caso de los numeros el false es representado por el 0, en los textos y archivos por el contendio vacio, entre otras definiciones.",
+            "subtitles": [
+                "If",
+                "If - else",
+                "If - else - if",
+                "switch"
+            ],
+            "subdescriptions": [
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                "/Images/structfile13.png",
+                "/Images/structfile14.png",
+                "/Images/structfile15.png",
+                "/Images/structfile16.png"
+            ]
         }
     },
     {
         "type": "description-images",
         "info": {
             "theme": "3",
-            "title": "Componentes de la configuración",
-            "decription": "",
+            "title": "Ciclos",
+            "decription": "Admite los diferentes ciclos repetitivos que emplean los lenguajes de programación en forma estandar. El do - while se simplificó para que se ingrese direcatamente la condición sin especificar el While. EL ciclo For es del tipo del lenguaje C o Java en donde se tiene una asignación, una comparación y un incremento.",
             "subtitles": [
-                "Buscar",
-                "Cambiar color"
+                "While",
+                "Do - While",
+                "For"
             ],
             "subdescriptions": [
-                "Se pueden especificar las direcciones del directorio donde se almacenan las clases, el editor de texto predeterminado y los compiladores de cada lenguaje a través de un buscador.",
-                "Tambíen se puede cambiar el color general de la aplicación y los colores representativos de cada lenguaje por medió de una ventana de selección de colores que permiten una amplia gama de opciones."
+                "",
+                "",
+                ""
             ],
             "images": [
-                "/Images/trimcode10.png",
-                "/Images/trimcode23.png"
+                "/Images/structfile17.png",
+                "/Images/structfile18.png",
+                "/Images/structfile19.png"
             ]
         }
     },
@@ -154,62 +225,242 @@
         "type": "description-image",
         "info": {
             "theme": "2",
+            "type": "1",
+            "title": "Funciones del tipo de dato num",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'num' para realizar <b>conversión</b> de tipo, <b>copiar</b> u obtener la <b>longitud</b> de caracteres.",
+            "image": "/Images/structfile20.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
             "type": "2",
-            "title": "Compilador C",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje C. Debido a que C no soporta Clases el algoritmo toma como metodo a ejecutar la primera función del archivo. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
-            "image": "/Images/trimcode4.png"
+            "title": "Funciones del tipo de dato bol",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'bol' para realizar <b>conversión</b> de tipo, <b>copiar</b> u obtener la <b>longitud</b> de caracteres.",
+            "image": "/Images/structfile21.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>conversión</b> de tipo, <b>copiar</b> u obtener la <b>longitud</b> de caracteres.",
+            "image": "/Images/structfile22.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para obtener subacadenas o caracteres, realizar <b>separaciones o particiones</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile23.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>eliminaciones</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile24.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>remplazamientos</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile25.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>concatenaciones</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile26.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>obtención de conincidencias</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile27.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para realizar <b>validación de conincidencias</b> según posiciones o coincidencias con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile28.png"
+        }
+    },  
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Funciones del tipo de dato tex",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'tex' para <b>obtenención posiciones de conincidencias</b> con expresiones regulares y permitiendo la delimitación de coincidencias por número de coincidencia.",
+            "image": "/Images/structfile29.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "1",
+            "title": "Funciones del tipo de dato fil",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'fil' para realizar <b>conversión</b> de tipo, <b>copiar</b> u obtener la <b>longitud</b> de caracteres.",
+            "image": "/Images/structfile30.png"
+        }
+    },  
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Funciones del tipo de dato fil",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'fil' para <b>obtener y asignar</b> propiedades del archivo (nombre, extensión y contendio). También soporta todas las <b>funciones por defecto del tipo de dato 'tex'<b>.",
+            "image": "/Images/structfile31.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "1",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para obtener <b>propiedades del arbol</b> y <b>copiar</b>.",
+            "image": "/Images/structfile32.png"
+        }
+    },  
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para obtener la <b>longiutd</b> (Numero de nodos) y <b>obtener y asignar propiedades del contenido</b>.",
+            "image": "/Images/structfile33.png"
+        }
+    },  
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para realizar <b>inserciones</b> de archivos y directorios",
+            "image": "/Images/structfile34.png"
         }
     },
     {
         "type": "description-image",
         "info": {
             "theme": "1",
-            "type": "1",
-            "title": "Compilador C++",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje C++. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
-            "image": "/Images/trimcode5.png"
+            "type": "2",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para realizar <b>extraciones</b> de archivos y directorios",
+            "image": "/Images/structfile35.png"
         }
     },
     {
         "type": "description-image",
         "info": {
             "theme": "3",
-            "type": "2",
-            "title": "Compilador Java",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje Java. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
-            "image": "/Images/trimcode6.png"
+            "type": "1",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para realizar <b>eliminaciones</b> de archivos y directorios",
+            "image": "/Images/structfile36.png"
         }
     },
     {
         "type": "description-image",
         "info": {
             "theme": "2",
-            "type": "1",
-            "title": "Compilador JavaScript",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje JavaScript. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Retorna en tiempo real las salidas en la consola.)",
-            "image": "/Images/trimcode7.png"
+            "type": "2",
+            "title": "Funciones del tipo de dato dir",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'dir' para realizar <b>enumeraciones</b> de archivos y directorios",
+            "image": "/Images/structfile37.png"
         }
     },
     {
         "type": "description-image",
         "info": {
             "theme": "1",
-            "type": "2",
-            "title": "Compilador Python",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje Python. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas en consola solo las devuleve hasta el final de la ejecución o hasta que realiza una lectura en consola.)",
-            "image": "/Images/trimcode9.png"
+            "type": "1",
+            "title": "Funciones del tipo de dato gro",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'gro' para realizar <b>conversión</b> de tipo, <b>copiar</b>, obtener la <b>longitud</b> de caracteres y <b>unir</b> los elementos que contiene en uno solo. Esto ultimo tiene una utilidad muy grande ya es posible separar cadenas en partes, transofrmarlas y volverlas a unir.",
+            "image": "/Images/structfile38.png"
         }
-    },
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "3",
+            "type": "2",
+            "title": "Funciones del tipo de dato gro",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'gro' para realizar <b>obtención</b> de elementos y realizar <b>cambios de estado</b> de los mismos.",
+            "image": "/Images/structfile39.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "1",
+            "title": "Funciones del tipo de dato gro",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'gro' para realizar <b>insersión</b> de elementos al final o según posiciones. La caracteristica mas importante es que este tipo de dato <b>ejecuta funciones del tipo de dato sus elementos </b> lo que permite tratar datos en conjunto evitando en gran medida el uso de ciclos.",
+            "image": "/Images/structfile40.png"
+        }
+    }, 
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
+            "title": "Funciones del tipo de dato lis",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'lis' para realizar <b>conversión</b> de tipo, <b>copiar</b> y obtener la <b>longitud</b> de elementos.",
+            "image": "/Images/structfile41.png"
+        }
+    }, 
     {
         "type": "description-image",
         "info": {
             "theme": "3",
             "type": "1",
-            "title": "Compilador MatLab",
-            "decription": "Este compilador permite ejecutar archivos del lenguaje MatLab. Toma como metodo a ejecutar el primer constrcutor de la primera clase. El compilador le pide al usuario las entradas del constructor y retorna las salidas en consola del codigo. (Las salidas solo las devuleve hasta el final de la ejecución por lo que aún no soporta la entrada en consola.)",
-            "image": "/Images/trimcode8.png"
+            "title": "Funciones del tipo de dato lis",
+            "decription": "StructFile integra por defecto las siguientes funciones para el tipo de dato 'lis' para realizar <b>obtención e insersión</b> de elementos.",
+            "image": "/Images/structfile42.png"
         }
-    },  
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "2",
+            "type": "2",
+            "title": "Funciones de acceso al sistema de archivos de Windows",
+            "decription": "StructFile integra por defecto las siguientes funciones para acceder al sistema de archivos de Windows. Especificamente permite <b>leer, escribir, sobrescribir y añadir</b> achivos y direcctorios en el sistema operativo. Son el puente de enlace entre el lenguaje y el sistema.",
+            "image": "/Images/structfile43.png"
+        }
+    },
     {
         "type": "title",
         "info": {
@@ -229,9 +480,9 @@
                 "Formalización"
             ],
             "subdescriptions": [
-                "Este problema fue identificado en mi situación particular de programador. Debido a que a medida que iba avanzando en mi carrera la cantidad de codigos que iba realizando en distintos lenguajes se iba haciendo cada vez mas grande. Esto llegó a un punto en el que cuando necesitaba reutilizar algun codigo que ya habia utilizado antes no me era fácil encontrarlo o ya estaba demasiado modificado como para utilizarlo facilmente. Adicionalmente yo suelo trabajar mucho con los archivos del sistema para organizar mis codigos por lo que poder ejecutar intruciones de gestionamiento de archivos personalizadas fuera de los entornos de desarrollo seria muy practico para mí y quizas para muchos otros programadores.",
-                "Esta aplicación se creó pensando en lograr una integración de distintos lenguajes de programación que le permitiera a los programadores crear, aislar, organizar, editar y ejecutar sus propios códigos de una forma muy práctica. Para este fin se tuvieron que tener en cuenta varios aspectos como la gran cantidad de lenguajes que existen y que son fuertemente utilizados por la comunidad de programadores o la forma de manejo que se debería emplear para que la aplicación fuera realmente accesible.",
-                "Se identificaron requisitos funcionales y no funcionales, orientados a desarrollar este producto, tales como; crear una clase abstracta de compilación que permita la integración de nuevos lenguajes de programación de la forma mas sencilla posible; crear un filtro que permita encontrar codigos de acuerdo al nombre, el leguaje y el contendido; o identificar automaticamente los compiladores de cada lenguaje."
+                "El problema identificado fué la limitación que tienen los lenguajes de programación actuales para tratar directorios, archivos y texto plano a la hora de estrcuturar y organizar la información. Por ejemplo, si un programador desea leer una jerarquia de directorios y archivos y getionarla seguramente va a tener que crear una esctructura de arbol que se lo permita o emplear alguna libreria que le permita el acceso. Otro ejemplo puede ser cuando un programador necesita identificar y tranformar información en un archivo, para esto seguramente se necesita emplear una librearia que permita el acceso a los archivos del sistema, leer toda la información ya que si desea realizar cambios debe reeescribir el archivo, emplear una libreria para expresiones regulares y crear un algoritmo que realice el proceso de transofmación ",
+                "Para dar solución a los ejemplos descritos de forma sencilla y rapida y en general dar solución a muchos problemas de tratamiendo de directorios, archivos y texto plano, se determinó crear un lenguaje de progrmación que permitíera trabajar con estructuras de directorios y archivos de froma nativa, que permita el getionamiento por grupos y estructurara infromación plana en base a expresiones regulares.",
+                "Se identificaron requisitos funcionales y no funcionales tales como: crear tipos de datos para el manejo de directorios, archivos, textos y grupos de una forma muy simple; crear componentes de progrmación básica como estructuras y funciones para que la información sea facilemnte tratable por los programadores; crear las funciones necesarias para la estructuración y gestionamiento de los tipos de datos con los fines descritos; o utilizar Java como lenguaje de desarrollo y Python como lenguaje de traducción."
             ],
             "images": [
                 "/Images/quicklist63.jpg",
@@ -248,15 +499,15 @@
             "decription": "",
             "subtitles": [
                 "Arquitectura",
-                "Interfaz"
+                "Diseño de Gramática"
             ],
             "subdescriptions": [
-                "Se diseñó una arquitectura por capas debido a que por el momento en el proyecto no se realiza ningun tipo de conexión a bases de datos, por lo tanto una arquitectura mas especifica como MVC habria sido inadecudada. Esta arquitectura por capas se separó en la vista, los controladores y los datos.",
-                "Los diseños de la interfaz se realizaron emplenado el modo gráfico de Netbeans para ubicar facilemente los componentes y definir las esctructura que deberia tener. Se diseñó la pantalla principal en donde se listarían los códigos, la pantalla de configuración para los directorios y compiladores, la pantalla de ejecución para los códigos y una pantalla axilizar para notificaciones, confirmaciones y demás."
+                "Se diseñó una arquitectura por capas dividiendo el sistema en el proceso principal, los controladores del lenguaje y el acceso a los datos. Asi mismo los controladores del lenguaje se dividieron en el compilador, la gramática y el traductor.",
+                "Para crear la gramtica que representaría el lenguaje de progrmación se identifició como el componente más general el contenido del lenguaje. A partir de ahí se identificadon los componentes que harían parte del contenido los cuales fueron: Las variables, las funciones, las estructuras y las expresiones. Asi sucesivamente se fueron describiendo cada vez mas detalladamente cada componente del lenguaje hasta que se obtuvo una estructura solida que cumpliera con los requerimientos."
             ],
             "images": [
-                "/Images/trimcode14.png",
-                "/Images/trimcode15.png"
+                "/Images/structfile44.png",
+                "/Images/structfile45.png"
             ]
         }
     },
@@ -272,13 +523,13 @@
                 "Control"
             ],
             "subdescriptions": [
-                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó RegEx para realizar el control de la sintaxis de cada lenguaje al extraer  información de las clases, los parametros y los comentarios. También se utilizaron MS-DOS commands para controlar los comiliadores de los distintos lenguajes integrados, redireccionar la consola a la aplicación y utilizar el editor de codigo preferido del usuario.",
-                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y emplear una gran cantidad de herramientas de programación gráfica y control de eventos. También se hizo uso de la herramienta PhotoShop para crear y modificar las imágenes de los iconos. Se empleó Swing para los componentes de gráficos y Apache commons para el manejo apropiado del sistema de archivos.",
-                "Como herramienta de control de versiones GitHub. Debido a que es un proyecto individual se empleó la rama Master para ir registrando la actualización de cada elemento del sistema."
+                "Se empleó JAVA SE como lenguaje de programación para desarrollar el compilador. Se utilizó Python como lenguaje de traducción por lo que a paritr de este se desarrollaron todas funcionalidades y parte del control del lenguaje. Se utilizó el lenguaje de ANTLR versión 4 como lenguaje de definición de gramática. Por medio de la tecnología ANTLR se realizó una generación de codigo automático en base a la gramática para crear la estructura del analizador lexico, sintactico y de traducción.",
+                "Se utilizó IntelliJ IDEA para poder manejar JAVA con completamiento de código y poder implementar la tecnología ANTLR sin problemas de versionamiento. También se utilizó el entorno de desarrollo JetBrains PyCharm para crear todas las funcionalidades del lenguaje basadas en Python.",
+                "Como herramienta de control de versiones se empleó GitHub. Debido a que fué un proyecto individual se empleó la rama Master para ir registrando la actualización de cada elemento del sistema."
             ],
             "images": [
-                "/Images/tankAttack15.jpg",
-                "/Images/quicklist68.jpg",
+                "/Images/structfile46.gif",
+                "/Images/structfile47.png",
                 "/Images/quicklist69.png"
             ]
         }
@@ -295,13 +546,13 @@
                 "Verificación"
             ],
             "subdescriptions": [
-                "Para determinar la correcta ejecución de toda la aplicación se establecieron pruebas de flujo (para las pantallas) y pruebas de control (para las funcionalidades del los componentes) acordes con los requerimientos ya definidos.",
-                "En las pruebas de flujo se tomó la estructura definida en el diseño para recorrer las pantallas de aplicación y se realizaron diferentes recorridos en ejecución. En las pruebas de control se realizaron diferentes tipos de codigos para cada lenguaje y analizó si el sistema repondia correctamente a cada estructura de codigo",
-                "En las pruebas de los componentes del sistema se realizaron varias correcciones respecto a los botones debido a que el uso de diferentes pantallas e hijos generaban algunos conflictos con algunas funcionalidades. También se realizaron varias correcciones en la interfáz de lenguajes debido a que algunos de los lenguajes presentaban comportamientos inesperados que rompian la funcionalidad completa de algunos lenguajes como la entrada por consola o las pausas en el proceso de ejecución."
+                "Para determinar la correcta ejecución del compilador se definieron diferentes pruebas de ejecución en las que se vieron involucrados los elementos más fundamentales del lenguajes como los distintos tipod de opradores, las estructuras, las funciones, el tratamiento de texto y el tratamiento de directorios y archivos.",
+                "Al concreatar una versión estable del lenguaje éste se sometió a varios algoritmos. El pimero fue un programa sencillo que realizaba operaciónes aritméticas en base a dos datos 'num'. El segundo algoritmo se definieron varios flujos con cilos repetitivos para validar las estructuras. Entre otros algoritmos los ultimos dos fueron los más importantes ya que con el penultimo algoritmo se demostró la capacidad del lenguaje para gestionar un menú con submenús escrito en un archivo de texto seccionando la estructura, cambiando los simbolos de una subestructura y borrando uno de los items del menú con su contenido. Finalmente con el ultimo algoritmo se verificó que el lenguaje puediera realizar tratamiento de directorios en el sistema operativo creando un arbol de directorios y archivos desde el lenguaje, guardandolo en el sistema, recapturandolo en el lenguaje y realizando enumeraciones de contenido.",
+                "En las pruebas de ejecución se identificaron algunas falencias como algunas operaciones entre tipos de datos que no estaban soportadas, estructuras que no estaban bien definidas o elementos que se habian omitido en el sistema como el tipo de datos variable de las listas. Sin embargo el 95% de las funcionalidades del lenguaje fueron correctamente implementadas, en especial las necesarias para cumplir con los requerimientos."
             ],
             "images": [
                 "/Images/quicklist70.png",
-                "/Images/tankattack15.png",
+                "/Images/structfile48.png",
                 "/Images/quicklist71.jpg"
             ]
         }
@@ -318,7 +569,7 @@
         "info": {
             "theme": "1",
             "title": "",
-            "decription": "Al desarrollar este proyecto me pude dar cuenta de lo útil que puede llegar a ser el manejo de la linea de comandos del sistema operativo para manejar apliaciones y controlar otros lenguajes de programación a través del código. Tambíen me di cuenta de mucho que se simplifica el control de la sintaxis de un lenguaje al manejar expresiones regulares. Es la primera vez que utilicé clases abractas e interfaces para unificar comportamientos comunes y realemente estoy muy satisfecho con los resultados, son estructuras bastante felxibles que facilitan mucho la prgramación."
+            "decription": "Crear un lenguaje de programación es un de los desarrollos mas largos y complicados que he realizado puesto que involucra muchos conceprtos a nivel teórico y práctico como el manejo de autómatas, expresiones regulaes, gramáticas, grafos entre muchos otros. Realmente fue un proceso muy extenso identificar y controlar cada pequeño componente del lenguaje para que cumpliera su función. Aún asi ANTLR es una herramienta muy útil que reduce en gran medida la complejidad del código a la hora de realizar lenguajes de programación. Aún se necesita continuar trabajando en el lenguaje para que este pueda ejercer su funcionalidad de forma mas amplia y optima. Sin embargo estoy muy satisfecho con los resultados y el conocimiento que adquirí en este proyecto ya que me ha dado una visión mucho mas amplia de todo lo que se puede llegar a desarrollar empleando este tipo de tecnologías."
         }
     }
 ]

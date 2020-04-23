@@ -2,23 +2,26 @@
 :root {
     --color0: rgba(0,0,0,0);
     --color1: rgb(0, 0, 0);
-    --color2: rgb(48, 100, 34);
-    --color3: rgb(138, 168, 31);
-    --color4: rgb(201, 230, 134);
-    --color5: rgb(241, 255, 191);
-    --color6: rgb(247, 255, 236);
+    --color2: rgb(27, 116, 67);
+    --color3: rgb(30, 161, 83);
+    --color8: rgb(40, 199, 103);
+    --color4: rgb(244, 255, 195);
+    --color5: rgb(255, 253, 220);
+    --color6: rgb(253, 255, 236);
     --color7: rgb(251, 255, 239);
     --text1: 14px;
     --text2: 15px;
     --text3: 14px;
     --text4: 25px;
+    --fontWeight: bold;
+    --fontFamily: 'Helvetica', 'Arial', sans-serif;
   }
   
 
 * {
     box-sizing: border-box;
     outline:1px solid var(--color0);
-    font-family:"Arial", Gadget, sans-serif;
+    font-family: var(--fontFamily);
   }
 
 br {
@@ -34,29 +37,53 @@ img {
 a {
     color: var(--color3);
 }
-  
+
+@keyframes bodyAnimation {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 body {
     background-color: var(--color7);
     padding: 20px;
+    animation: 1s ease-out 0s 1 bodyAnimation;
+  
 }
 
 .body {
     padding: 30px;
     overflow: hidden;
-	background-color: var(--color3);
+	background: linear-gradient(to right,var(--color3),var(--color2));
 	border-radius: 10px 10px 10px 10px;
 	-webkit-box-shadow: 9px 9px 7px -4px var(--color1);
 	-moz-box-shadow: 9px 9px 7px -4px var(--color1);
 	box-shadow: 9px 9px 7px -4px var(--color1);
-	background: var(--color3);
-	background: radial-gradient(circle, var(--color3) 0%, var(--color2) 100%);
+}
+
+@keyframes headerAnimation {
+    0% {
+        transform: translateX(-5%);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .header {
-    background: var(--color5);
-	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
+    background: linear-gradient(to right,var(--color4),var(--color3));
     box-shadow: 9px 9px 7px -4px var(--color1);
-    border-radius: 10px 10px 0px 10px;
+    border-radius: 5px 5px 0px 5px;
+    animation: 2s ease-out 0s 1 headerAnimation;
 }
 
 .header > img {
@@ -68,68 +95,96 @@ body {
     height: 75px;
     display: flex;
     justify-content: flex-end;
+    animation: 2s ease-out 0s 1 headerAnimation;
 }
 
 .tab {
+    font-weight: var(--fontWeight);
     margin-top: -16px;
     margin-bottom: 16px;
     float: right;
-    font-family:"Arial black", Gadget, sans-serif;
     list-style-type: none;
     padding: 10px;
     margin-left: 15px;
     text-align:center;
     font-size: 13px;
     width: 120px;
-    background: var(--color2);
-	background: radial-gradient(circle, var(--color2) 0%, var(--color2) 100%);
+    background: linear-gradient(to right,var(--color3),var(--color2));
     box-shadow: 5px 4px 4px 0px var(--color1);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
     color: var(--color7);
-    
+    background-color: #000;
+    z-index: 999; 
+    position: relative;
+    transition: min-height .3s;
+    overflow: hidden;
+    height: 32px;
+}
+
+.tab2 {
+    min-height: 20px;
 }
 
 .subtabs {
-    font-family:"Arial black", Gadget, sans-serif;
-    list-style-type: none;
-    padding: 0;
-    display: none;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 .tab:hover {
-    cursor:default;
+    cursor:pointer;
     background: var(--color3);
-	background: radial-gradient(circle, var(--color3) 0%, var(--color2) 100%);
+    background: linear-gradient(to right,var(--color2),var(--color3));
+    font-size: 14px;
+}
+
+.tab2:hover {
+    transition: min-height .3s ease-in-out;
+    min-height: 175px;
 }
 
 .subtab:hover {
     background: var(--color3);
-	background: radial-gradient(circle, var(--color4) 0%, var(--color0) 100%);
+    background: linear-gradient(to right,var(--color3),var(--color2));
+    border-radius: 5px;
 }
 
 .tab:hover > .subtabs {
     display: block;
+    position: relative;
 }
 
 .subtab {
-    margin-top: 5px;
-    font-family:"Arial black", Gadget, sans-serif;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
     list-style-type: none;
     text-align:center;
     display: block;
 }
 
-.tabContent {
-    font-family:"Arial black", Gadget, sans-serif;
+@keyframes contentAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(5%);
+        
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .content {
     margin-top: -25px;
     padding: 30px;
-    background: var(--color5);
-	background: radial-gradient(circle, var(--color5) 0%, var(--color3) 100%);
+    background: linear-gradient(to right,var(--color4),var(--color3));
     box-shadow: 9px 9px 7px -4px var(--color1);
     border-radius: 10px 10px 10px 10px;
+    animation: 2s ease-out 0s 1 contentAnimation;
 }
 
 .user {
@@ -158,14 +213,12 @@ body {
 }
 
 .name {
+    font-weight: var(--fontWeight);
     height: 50px;
-    padding: 5px;
+    padding-top: 5px;
     text-align: center;
-    font-family:"Arial Black", Gadget, sans-serif;
-    font-size: 13px;
     letter-spacing: 0px;
-    word-spacing: 1px;
-    font-weight: 700;
+    word-spacing: 0px;
     color: var(--color2);
 }
 
@@ -175,28 +228,53 @@ body {
     display: block;
  }
 
-.title {
-    height: 190px;	
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 20px;
-	text-shadow:1px 1px 0 rgb(227,227,227),2px 2px 0 rgb(198,198,198),3px 3px 0 rgb(170,170,170),4px 4px 0 rgb(142,142,142),5px 5px 0 rgb(113,113,113),6px 6px 0 rgb(85,85,85),7px 7px 0 rgb(57,57,57),8px 8px 0 rgb(28,28,28),9px 9px 1px rgba(0,0,0,1);
-	-webkit-text-shadow:local1px 1px 0 rgb(227,227,227),2px 2px 0 rgb(198,198,198),3px 3px 0 rgb(170,170,170),4px 4px 0 rgb(142,142,142),5px 5px 0 rgb(113,113,113),6px 6px 0 rgb(85,85,85),7px 7px 0 rgb(57,57,57),8px 8px 0 rgb(28,28,28),9px 9px 1px rgba(0,0,0,1);
-	-moz-text-shadow:1px 1px 0 rgb(227,227,227),2px 2px 0 rgb(198,198,198),3px 3px 0 rgb(170,170,170),4px 4px 0 rgb(142,142,142),5px 5px 0 rgb(113,113,113),6px 6px 0 rgb(85,85,85),7px 7px 0 rgb(57,57,57),8px 8px 0 rgb(28,28,28),9px 9px 1px rgba(0,0,0,1);
-	color:var(--color7);
-	font-size: 50px;
-    font-family:"Arial Black", Gadget, sans-serif;
-    background: var(--color3);
-    background: -moz-linear-gradient(-45deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
-    background: -webkit-linear-gradient(-45deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
-    background: -o-linear-gradient(-45deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
-    background: -ms-linear-gradient(-45deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
-    background: linear-gradient(135deg, var(--color3) 0%, var(--color5) 30%, var(--color3) 48%, var(--color5) 69%, var(--color3) 84%, var(--color3) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04c70a', endColorstr='#00e31a', GradientType=1 );
-    border-radius: 0px 0px 10px 0px;
+ @keyframes changewidth {
+    0% {
+        font-size: 50px;
+    }
+    100% {
+        font-size: 55px;
+    }
+}
+  
+.titleContent {
+    padding: 20px;
     overflow: hidden;
-    word-break: break-all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-weight: var(--fontWeight);
+    border-radius: 50%;
+    height: 150px;	
+    width: 150px;	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    text-shadow: 5px 5px 5px black; 
+    box-shadow: 5px 5px 5px 0px black;
+    color:var(--color7);
+    background: linear-gradient(to bottom right,var(--color3),var(--color2));
+    animation-duration: 1s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes iconsAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .icons {
@@ -205,37 +283,40 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+    height: 50px;
     border-bottom: 3px solid var(--color2);
 }
 
 .icon {
+    width: 25px;
     height: 25px;
     min-width: 25px;
-    width: 25px;
+    min-height: 25px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-left: 10px;
+    animation: 3s ease-out 0s 1 iconsAnimation;
+    transition: width .3s, height .3s;
+}
+
+.icon:hover {
+    height: 50px;
+    width: 50px;
 }
 
 .module {
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    overflow: hidden;
-	border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 	-webkit-box-shadow: 9px 9px 7px -4px var(--color1);
 	-moz-box-shadow: 9px 9px 7px -4px var(--color1);
 	box-shadow: 9px 9px 7px -4px var(--color1);
-	background: var(--color6);
-	background: radial-gradient(circle, var(--color6) 0%, var(--color6) 100%);
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .caracteristics-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
@@ -243,12 +324,16 @@ body {
 .caracteristics-description {
     font-size: var(--text3);
     color: var(--color1);
-    margin-bottom: 30px;
+    margin: 20px;
+}
+
+.caracteristics-content {
+    margin: 20px;
 }
 
 .caracteristics-subtitle {
+    font-weight: var(--fontWeight);
     font-size: var(--text2);
-    font-family:"Arial black", Gadget, sans-serif;
     width: 40%;
     clear: both; 
     float: left; 
@@ -265,8 +350,8 @@ body {
 }
 
 .description-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 20px;
@@ -283,25 +368,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 .descriptionImage-left {
     margin-right: 30px;
 }
 
-.descriptionImage-title {
+.moduleTitle {
+    width: 100%;
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
-    text-align: center;
+    text-align: left;
     color: var(--color2);
-    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(to right,var(--color3),var(--color2));
+}
+
+.descriptionImage-title2 {
+    cursor: pointer;
 }
 
 .descriptionImage-description {
     font-size: var(--text3);
     text-align: center;
     color: var(--color1);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .descriptionImage-image {
@@ -309,12 +401,11 @@ body {
     max-height:100%;
     box-shadow: 7px 7px 5px -4px var(--color1);
     border-radius: 5px 5px 5px 5px;
-    margin-bottom: 15px;
 }
 
 .descriptionImages-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
@@ -322,11 +413,11 @@ body {
 .descriptionImages-description {
     font-size: var(--text3);
     color: var(--color1);
-    margin-bottom: 20px;
 }
 
 .descriptionImages-content {
     display: flex;
+    margin: 20px;
 }
 
 .descriptionImages {
@@ -357,9 +448,9 @@ body {
 }
 
 .descriptionImages-subtitle {
+    font-weight: var(--fontWeight);
     flex-basis: 100%;
     font-size: var(--text2);
-    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 10px;
@@ -373,16 +464,14 @@ body {
 }
 
 .images-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
-    margin-bottom: 20px;
 }
 
 .images-description {
     font-size: var(--text3);
     color: var(--color1);
-    margin-bottom: 20px;
 }
 
 .images-content {
@@ -401,11 +490,15 @@ body {
     border-radius: 5px 5px 5px 5px;
 }
 
+.presentation {
+    margin: 20px;
+}
+
 .presentation-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .presentation-description {
@@ -426,9 +519,9 @@ body {
 }
 
 .slides-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
     text-align: center;
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
     margin-bottom: 20px;
 }
@@ -477,8 +570,8 @@ body {
 }
 
 .slides-subtitle {
+    font-weight: var(--fontWeight);
     font-size: var(--text2);
-    font-family:"Arial black", Gadget, sans-serif;
     text-align: center;
     color: var(--color2);
     margin-bottom: 20px;
@@ -493,9 +586,9 @@ body {
 
 
 .title-title {
+    font-weight: var(--fontWeight);
     font-size: var(--text4);
-    font-family:"Arial black", Gadget, sans-serif;
     color: var(--color2);
-    margin-bottom: 20px;
+    margin: 20px;
     text-align: center;
 }

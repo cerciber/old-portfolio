@@ -53,7 +53,7 @@ class DescriptionsImages extends React.Component {
   render() {
     return (
       <div class="module"  style={{ background: this.state.background }}>
-        <div class="descriptionImages-title" style={{ color: this.state.title }}>{this.props.info.title}</div>
+        <div class="moduleTitle" style={{ color: "var(--color7)" }}>{this.props.info.title}</div>
         <div class="descriptionImages-description" style={{ color: this.state.text }} dangerouslySetInnerHTML={{__html: 
         this.props.info.decription}}></div>
         <div class="descriptionImages-content">

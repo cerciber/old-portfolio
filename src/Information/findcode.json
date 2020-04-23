@@ -1,16 +1,9 @@
 [
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "FindCode"
-        }
-    },
-    {
         "type": "presentation",
         "info": {
-            "theme": "1",
-            "title": "",
+            "theme": "",
+            "title": "FindCode",
             "decription": "Una mejor maenra de entender el código",
             "authors": [
                 "Cesar Augusto Torres Ardila",

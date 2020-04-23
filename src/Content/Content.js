@@ -19,39 +19,46 @@ import Presentation from "./../modules/Presentation";
 import Slides from "./../modules/Slides";
 import Title from "./../modules/Title";
 
+//const [isVisible, setVisible] = React.useState(true);
+
 class Content extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {jsonContent: ""};
+  }
+
+  callback = (dataFromChild) => {
+    this.props.callbackFromParent(dataFromChild)
   }
 
   createContent() {
-    
+
     // Asignar contenido
     switch (this.props.scene) {
       case Constants.ABOUT_ME_SCENE:
-        this.state = { jsonContent: about_me };
+        this.state.jsonContent = about_me;
         break;
       case Constants.PORTFOLIO_SCENE:
-        this.state = { jsonContent: portfolios };
+        this.state.jsonContent = portfolios;
         break;
       case Constants.CONTACT_SCENE:
-        this.state = { jsonContent: contact };
+        this.state.jsonContent = contact;
         break;
       case Constants.TRIM_CODE_SCENE:
-        this.state = { jsonContent: trimcode };
+        this.state.jsonContent = trimcode;
         break;
       case Constants.QUICK_LIST_SCENE:
-        this.state = { jsonContent: quicklist };
+        this.state.jsonContent = quicklist;
         break;
       case Constants.FIND_CODE_SCENE:
-        this.state = { jsonContent: findcode };
+        this.state.jsonContent = findcode;
         break;
       case Constants.TANK_ATTACT_SCENE:
-        this.state = { jsonContent: tankattack };
+        this.state.jsonContent = tankattack;
         break;
       case Constants.STRUCT_FILE_SCENE:
-        this.state = { jsonContent: structfile };
+        this.state.jsonContent = structfile;
         break;
     }
 
@@ -59,28 +66,28 @@ class Content extends React.Component {
     for (var i = 0; i < this.state.jsonContent.length; i++) {
       switch (this.state.jsonContent[i].type) {
         case "characteristics":
-          content.push(<Characteristics info={this.state.jsonContent[i].info}></Characteristics>);
+          content.push(<div class="baseModule"><Characteristics info={this.state.jsonContent[i].info}></Characteristics></div>);
           break;
         case "description":
-          content.push(<Description info={this.state.jsonContent[i].info}></Description>);
+          content.push(<div class="baseModule"><Description info={this.state.jsonContent[i].info}></Description></div>);
           break;
         case "description-image":
-          content.push(<DescriptionImage info={this.state.jsonContent[i].info}></DescriptionImage>);
+          content.push(<div class="baseModule"><DescriptionImage callbackFromParent={this.callback} info={this.state.jsonContent[i].info}></DescriptionImage></div>);
           break;
         case "description-images":
-          content.push(<DescriptionImages info={this.state.jsonContent[i].info}></DescriptionImages>);
+          content.push(<div class="baseModule"><DescriptionImages info={this.state.jsonContent[i].info}></DescriptionImages></div>);
           break;
         case "images":
-          content.push(<Images info={this.state.jsonContent[i].info}></Images>);
+          content.push(<div class="baseModule"><Images info={this.state.jsonContent[i].info}></Images></div>);
           break;
         case "presentation":
-          content.push(<Presentation info={this.state.jsonContent[i].info}></Presentation>);
+          content.push(<div class="baseModule"><Presentation info={this.state.jsonContent[i].info}></Presentation></div>);
           break;
         case "slides":
-          content.push(<Slides info={this.state.jsonContent[i].info}></Slides>);
+          content.push(<div class="baseModule"><Slides info={this.state.jsonContent[i].info}></Slides></div>);
           break;
         case "title":
-          content.push(<Title info={this.state.jsonContent[i].info}></Title>);
+          content.push(<div class="baseModule"><Title info={this.state.jsonContent[i].info}></Title></div>);
           break; 
       }
     }

@@ -1,9 +1,16 @@
 [
     {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Contacto"
+        }
+    },
+    {
         "type": "characteristics",
         "info": {
             "theme": "1",
-            "title": "Contacto",
+            "title": "",
             "decription": "Si desean comunicarse conmigo o conocer un poco mas acerca mi puede hacerlo a través de estos medios:",
             "subtitles": [
                 "Correo:",

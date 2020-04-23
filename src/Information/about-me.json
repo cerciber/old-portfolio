@@ -1,5 +1,12 @@
 [
     {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Acerca de"
+        }
+    },
+    {
         "type": "description-image",
         "info": {
             "theme": "2",

@@ -1,16 +1,9 @@
 [
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "TrimCode"
-        }
-    },
-    {
         "type": "presentation",
         "info": {
-            "theme": "1",
-            "title": "",
+            "theme": "5",
+            "title": "TrimCode",
             "decription": "",
             "authors": [
                 "Cesar Augusto Torres Ardila"

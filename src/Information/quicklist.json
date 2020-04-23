@@ -1,16 +1,9 @@
 [
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "QuickList"
-        }
-    },
-    {
         "type": "presentation",
         "info": {
-            "theme": "1",
-            "title": "",
+            "theme": "5",
+            "title": "QuickList",
             "decription": "Software de integración de responsabilidades administrativo-académicas para el Servicio Nacional de Aprendizaje (SENA).",
             "authors": [
                 "Camilo Andrés Santana",

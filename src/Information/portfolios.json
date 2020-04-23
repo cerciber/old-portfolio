@@ -1,12 +1,20 @@
 [
     {
+        "type": "title",
+        "info": {
+            "theme": "5",
+            "title": "Proyectos"
+        }
+    },
+    {
         "type": "description-image",
         "info": {
             "theme": "2",
             "type": "2",
             "title": "TrimCode",
             "decription": "TrimCode es una aplicación de escritorio que le permite a los programadores almacenar, organizar, editar y compliar clases de distintos lenguajes de programación. Permite conservar la estructura de las clases intacta y asilada para uso. TrimCode tiene la capacidad de generar una interfáz de compilación para las clases con campos de entrada para los parametros del constructor y un campo de salida para la consola. De esta forma es posbile compilar clases sin un método principal.",
-            "image": "/Images/trimcode1.png"
+            "image": "/Images/trimcode1.png",
+            "link": 3
         }
     },
     {
@@ -16,7 +24,8 @@
             "type": "1",
             "title": "QuickList",
             "decription": "QuickList es un software de integración de responsabilidades administrativo-académicas desarrollado para el SENA. Está enfocado a la gestión de fallas, actividades, calificaciones, planes de estudio y exportación de formatos de etapa lectiva predefinidos. Fue pensado como una solución viable a las falencias identificadas en el SENA a la hora de llevar los controles de los estudiantes en términos de tiempo y accesibilidad.",
-            "image": "/Images/quicklist1.jpg"
+            "image": "/Images/quicklist1.jpg",
+            "link": 4
         }
     },
     {
@@ -26,7 +35,8 @@
             "type": "2",
             "title": "FindCode",
             "decription": "FindCode es una aplicación diseñada para la comunidad de programadores con el objetivo de almacenar y organizar piezas de código y permitirle a los usuarios documentar gráficamente sus piezas de código y las de otros usuarios.",
-            "image": "/Images/findcode1.png"
+            "image": "/Images/findcode1.png",
+            "link": 5
         }
     },
     {
@@ -34,9 +44,21 @@
         "info": {
             "theme": "2",
             "type": "1",
+            "title": "StructFile",
+            "decription": "SctuctFile es un lenguaje de programación de propósito dedicado orientado al tratamiento de directorios, archivos y texto plano. El lenguaje toma como base el manejo de expresiones regulares para estructurar la información y permite reorganizarla y cambiarla directamente a partir de coincidencias.",
+            "image": "/Images/structfile1.png",
+            "link": 7
+        }
+    },
+    {
+        "type": "description-image",
+        "info": {
+            "theme": "1",
+            "type": "2",
             "title": "TankAttack",
             "decription": "TankAttack es un divertidísimo juego multijugador que combina el clásico \"captura la bandera\" con la emoción de los juegos de guerra armada. Consiste en dos tanques, cada uno con su propia base, cuyo objetivo es obtener la bandera de la base enemiga atravesando un terreno lleno de muros, piedras, agujeros y agua con ayuda de un cañón. Los jugadores se verán obligados a enfrentarse entre sí en un duelo de cañones para proteger sus respectivas banderas. Gana el jugador que complete primero la cantidad de victorias especificada.",
-            "image": "/Images/tankAttack1.png"
+            "image": "/Images/tankattack.png",
+            "link": 6
         }
     }
 ]

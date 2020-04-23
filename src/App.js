@@ -9,7 +9,7 @@ import * as Constants from './Information/Constants';
 class App extends React.Component {
   render() {
     return (
-      <Structure scene={Constants.STRUCT_FILE_SCENE}/>
+      <Structure scene={Constants.PORTFOLIO_SCENE}/>
     );
   }
 }

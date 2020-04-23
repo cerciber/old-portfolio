@@ -1,16 +1,9 @@
 [
     {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "TankAttack"
-        }
-    },
-    {
         "type": "presentation",
         "info": {
-            "theme": "1",
-            "title": "",
+            "theme": "5",
+            "title": "TankAttack",
             "decription": "",
             "authors": [
                 "Cesar Augusto Torres Ardila",
@@ -25,7 +18,7 @@
             "type": "2",
             "title": "¿Qué es?",
             "decription": "TankAttack es un divertidísimo juego multijugador que combina el clásico \"captura la bandera\" con la emoción de los juegos de guerra armada. Consiste en dos tanques, cada uno con su propia base, cuyo objetivo es obtener la bandera de la base enemiga atravesando un terreno lleno de muros, piedras, agujeros y agua con ayuda de un cañón. Los jugadores se verán obligados a enfrentarse entre sí en un duelo de cañones para proteger sus respectivas banderas. Gana el jugador que complete primero la cantidad de victorias especificada.",
-            "image": "/Images/tankAttack1.png"
+            "image": "/Images/tankattack.png"
         }
     },
     {
@@ -35,10 +28,10 @@
             "title": "Vista general",
             "decription": "",
             "images": [
-                "/Images/tankAttack2.png",
-                "/Images/tankAttack3.png",
-                "/Images/tankAttack4.png",
-                "/Images/tankAttack5.png"
+                "/Images/tankattack2.png",
+                "/Images/tankattack3.png",
+                "/Images/tankattack4.png",
+                "/Images/tankattack5.png"
             ]
         }
     },
@@ -78,7 +71,7 @@
             "type": "1",
             "title": "Inicio",
             "decription": "Se muestra la imagen de un tanque alusiva a la temática del juego, el nombre de la aplicación y un botón para entrar al menú principal.",
-            "image": "/Images/tankAttack6.png"
+            "image": "/Images/tankattack6.png"
         }
     },
     {
@@ -88,7 +81,7 @@
             "type": "2",
             "title": "Menú principal",
             "decription": "En esté menú se le brinda a los usuarios la posibilidad de iniciar a jugar con valores de configuración ya determinados o entrar a la configuración a realizar ajustes. También brinda acceso a la sección de máximos puntajes.",
-            "image": "/Images/tankAttack7.png"
+            "image": "/Images/tankattack7.png"
         }
     },
     {
@@ -98,7 +91,7 @@
             "type": "1",
             "title": "Configuración",
             "decription": "Aquí se pueden cambiar la resistencia de los tanques especificando el número de balas que pueden soportar. También se puede definir el numero de banderas que se deben conseguir para obtener la victoria.",
-            "image": "/Images/tankAttack8.png"
+            "image": "/Images/tankattack8.png"
         }
     },
     {
@@ -108,7 +101,7 @@
             "type": "2",
             "title": "Máximos puntajes",
             "decription": "Permite observar los primeros 10 mejores puntajes obtenidos en todo el juego ordenados, por supuesto, del mejor al peor. Estos puntajes se obtienen por características como romper bloques, matar tanques y ganar banderas.",
-            "image": "/Images/tankAttack9.png"
+            "image": "/Images/tankattack9.png"
         }
     },
     {
@@ -118,7 +111,7 @@
             "type": "1",
             "title": "Pantalla de juego",
             "decription": "Al entrar en esta pantalla se ingresan los nombres de los dos jugadores y automáticamente se crea un escenario aleatorio de muros, piedras, huecos y agua. Los dos jugadores juegan desde el teclado cada uno con sus respectivas teclas (Jugador 1 teclas W,A,S,D y G y jugador 2 teclas 5,1,2,3 y 0). Los jugadores pueden disparar hacia los muros para intentar romperlos o hacia el contrincante. Cada muro tiene una resistencia particular, desde el mas débil al mas fuerte es: ladrillo, piedra y acero. El agua no la pueden atravesar los tanques pero si las balas. Los tanques también pueden caer en los huecos. Al ser destruido un tanque éste reaparece en su base.",
-            "image": "/Images/tankAttack10.png"
+            "image": "/Images/tankattack10.png"
         }
     },
     {
@@ -128,7 +121,7 @@
             "type": "2",
             "title": "Pantalla de juego",
             "decription": "Cada jugador debe tratar de obtener la bandera del contrincante, basta con que el tanque se posicione en la base enemiga para robar la bandera, después de esto el tanque debe lograr llegar a su propia base con la bandera enemiga sin ser destruido, de esta forma de ganará un punto. Se un jugador gana al llegar a la cantidad de puntos especificada en la configuración. Como se puede observar, existe un panel superior en el que se muestra el nombre, los puntos y el highscore de cada jugador. Para aumentar el highscore basta con dispararle al enemigo, romper muros o ganar banderas. Por ultimo, con la tecla Enter se pude pausar el juego y volver al menú principal.",
-            "image": "/Images/tankAttack11.png"
+            "image": "/Images/tankattack11.png"
         }
     },
     {
@@ -178,9 +171,9 @@
                 "Se definió el tablero de juego como una cuadricula en la cual se pudieran ubicar diferentes tipos de objetos para generar obstáculos. También se estableció el panel de información en la parte superior del tablero. Por ultimo se definieron los menús de la aplicación como listas con una fuente personalizada acorde a la temática de guerra así como los fondos."
             ],
             "images": [
-                "/Images/tankAttack12.png",
-                "/Images/tankAttack13.png",
-                "/Images/tankAttack14.png"
+                "/Images/tankattack12.png",
+                "/Images/tankattack13.png",
+                "/Images/tankattack14.png"
             ]
         }
     },
@@ -201,7 +194,7 @@
                 "Como herramienta de control de versiones y para poder dividir adecuadamente las tareas a realizar se empleó GitHub. Se creó una rama de desarrollo sobre el Master y en esta rama se crearon otras dos ramas para que los dos desarrolladores pudieran realizar sus tareas sin complicaciones de integración posterior."
             ],
             "images": [
-                "/Images/tankAttack15.jpg",
+                "/Images/tankattack15.jpg",
                 "/Images/quicklist68.jpg",
                 "/Images/quicklist69.png"
             ]
