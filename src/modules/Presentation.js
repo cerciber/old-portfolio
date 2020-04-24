@@ -35,7 +35,7 @@ class Presentation extends React.Component {
     for (var i = 0; i < this.props.info.authors.length; i++) {
       content.push(
         <div class="presentation-author"  style={{ color: this.state.text }}>
-          &#11044;{" " + this.props.info.authors[i]}
+          &#9673;{" " + this.props.info.authors[i]}
         </div>
       );
     }

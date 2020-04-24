@@ -49,6 +49,19 @@ class Structure extends React.Component {
         </div>
         <nav class="tabs">
           <ul>
+          <div class="tab tab2 tab3 tab4"> 
+          <li class="tabContent" onClick={() => false}><img class="icon2" src={process.env.PUBLIC_URL + '/Images/icon_toolbar.png'} alt="" /></li> 
+          <ul class="subtabs subtabs2">
+                <li class="subtab" onClick={() => this.setState({scene: Constants.CONTACT_SCENE})}>Contacto</li> 
+                <li class="subtab" onClick={() => this.setState({scene: Constants.ABOUT_ME_SCENE})}>Acerca de</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.PORTFOLIO_SCENE})}>Portafolio</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.TRIM_CODE_SCENE})}>TrimCode</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.QUICK_LIST_SCENE})}>QuickList</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.FIND_CODE_SCENE})}>FindCode</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.STRUCT_FILE_SCENE})}>StructFile</li>
+                <li class="subtab" onClick={() => this.setState({scene: Constants.TANK_ATTACT_SCENE})}>TankAttack</li>
+              </ul>
+            </div>
           <li class="tab" onClick={() => this.setState({scene: Constants.CONTACT_SCENE})}>Contacto</li> 
             <li class="tab" onClick={() => this.setState({scene: Constants.ABOUT_ME_SCENE})}>Acerca de</li>
             <div class="tab tab2"> 

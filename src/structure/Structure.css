@@ -96,6 +96,7 @@ body {
     height: 75px;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     animation: 2s ease-out 0s 1 headerAnimation;
 }
 
@@ -103,13 +104,12 @@ body {
     font-weight: var(--fontWeight);
     margin-top: -16px;
     margin-bottom: 16px;
+    margin-left: 13px;
     float: right;
     list-style-type: none;
     padding: 10px;
-    margin-left: 15px;
     text-align:center;
     font-size: 16px;
-    width: 120px;
     background: linear-gradient(to right,var(--color3),var(--color2));
     box-shadow: 5px 4px 4px 0px var(--color1);
     border-radius: 0px 0px 5px 5px;
@@ -117,13 +117,55 @@ body {
     background-color: #000;
     z-index: 999; 
     position: relative;
-    transition: min-height .3s;
+    transition: width 1s, height 1s;
     overflow: hidden;
     height: 37px;
+    width: 130px;
 }
 
 .tab2 {
     min-height: 20px;
+}
+
+.tab3 {
+    font-weight: var(--fontWeight);
+    margin-top: -16px;
+    margin-bottom: 16px;
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    text-align:center;
+    font-size: 16px;
+    background: linear-gradient(to right,var(--color3),var(--color2));
+    box-shadow: 5px 4px 4px 0px var(--color1);
+    border-radius: 0px 0px 5px 5px;
+    color: var(--color7);
+    background-color: #000;
+    z-index: 999; 
+    position: relative;
+    transition: width 1s, height 1s;
+    overflow: hidden;
+    height: 37px;
+    width: 130px;
+    display: none;
+    min-height: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .tab {
+        display: none;
+    }
+
+    .tab4 {
+        display: initial;
+    } 
+
+}
+
+
+.tab3:hover {
+    transition: min-height .3s ease-in-out;
+    min-height: 300px;
 }
 
 .subtabs {
@@ -139,11 +181,22 @@ body {
     background: var(--color3);
     background: linear-gradient(to right,var(--color2),var(--color3));
     font-size: 17px;
+    width: 137px;
 }
 
 .tab2:hover {
     transition: min-height .3s ease-in-out;
     min-height: 195px;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .tab2:hover {
+        transition: min-height .3s ease-in-out;
+        min-height: 290px;
+    }
+    
+
 }
 
 .subtab:hover {
@@ -221,6 +274,7 @@ body {
     margin-bottom: 10px;
 }
 
+
 .name {
     font-weight: var(--fontWeight);
     height: 50px;
@@ -236,6 +290,15 @@ body {
     margin: 0px;
     display: block;
  }
+
+ @keyframes contentChangewidth {
+    0% {
+        margin-right: 50px;
+    }
+    100% {
+        margin-right: 0px;
+    }
+}
 
  @keyframes changewidth {
     0% {
@@ -253,6 +316,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-duration: 5s;
+    animation-name: contentChangewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .title {
@@ -305,10 +372,19 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin-left: 10px;
-    animation: 3s ease-out 0s 1 iconsAnimation;
-    transition: width .3s, height .3s;
+    animation: s ease-out 0s 1 iconsAnimation;
+    transition: width 1s, height 1s;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+}
+
+.icon2 {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    margin-top: -4px;
+    align-items: center;
 }
 
 .icon:hover {
