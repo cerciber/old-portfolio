@@ -1,0 +1,39 @@
+body,
+html {
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  min-width: calc(100% - 20px);
+  min-height: calc(100% - 10px);
+  width: calc(100% - 20px);
+  height: calc(100% - 10px);
+  background-color: #ffffff;
+}
+#App {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.app-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*Scroll*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5ff98;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0da15d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3bc458;
+}
