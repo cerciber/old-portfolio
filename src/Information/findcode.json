@@ -1,244 +1,225 @@
 [
-    {
-        "type": "presentation",
-        "info": {
-            "theme": "5",
-            "title": "FindCode",
-            "decription": "Una mejor manera de entender el código",
-            "authors": [
-                "Cesar Augusto Torres Ardila",
-                "Enderson Gonzalo Diaz Muñoz"
-            ]
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "3",
-            "type": "2",
-            "title": "¿Qué es?",
-            "decription": "¿Alguna vez te has visto en inconvenientes al tratar de analizar el código de otra persona? ¿Has necesitado de alguna pieza de código en específico? o ¿Has querido almacenar tus códigos de forma organizada? <br> FindCode es una aplicación diseñada para la comunidad de programadores con el objetivo de almacenar y organizar piezas de código y permitirle a los usuarios documentar gráficamente sus piezas de código y las de otros usuarios.",
-            "image": "/Images/findcode1.png"
-        }
-    },
-    {
-        "type": "images",
-        "info": {
-            "theme": "2",
-            "title": "Vista general",
-            "decription": "",
-            "images": [
-                "/Images/findcode2.png",
-                "/Images/findcode3.png",
-                "/Images/findcode4.png",
-                "/Images/findcode5.png"
-            ]
-        }
-    },
-    {
-        "type": "characteristics",
-        "info": {
-            "theme": "1",
-            "title": "Características del proyecto",
-            "decription": "Proyecto final desarrollado para la materia de Programación orientada a objetos de la Universidad Nacional de Colombia.",
-            "subtitles": [
-                "Equipo:",
-                "Tipo:",
-                "Arquitectura:",
-                "Lenguajes:",
-                "Tecnologías:"
-            ],
-            "subdescriptions": [
-                "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia. <br><b>Enderson Gonzalo Díaz Muñoz</b>. Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
-                "Aplicación de escritorio",
-                "MVC (Modelo - Vista - Controlador)",
-                "Java SE<br>MySQL",
-                "Swing"
-            ]
-        }
-    },
-    {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Funcionamiento"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "3",
-            "type": "1",
-            "title": "Inicio",
-            "decription": "Permite buscar las piezas de código que se necesiten especificando el lenguaje en el cual se desea buscar. También permite iniciar sesión con una cuenta ya registrada para acceder a mayores funcionalidades o ir a la pantalla de registro.",
-            "image": "/Images/findcode6.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "2",
-            "type": "2",
-            "title": "Resultado de la búsqueda",
-            "decription": "La aplicación busca en la base de datos todas las coincidencias y las muestra en una lista seleccionable con el nombre y la descripción de cada pieza de código. El algoritmo ordena los resultados según la calificación de cada una.",
-            "image": "/Images/findcode7.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "1",
-            "type": "1",
-            "title": "Descripción de la ficha",
-            "decription": "Muestra el nombre, la descripción, el lenguaje y la pieza de código seleccionada. Adicional a ello, la aplicación permite a los usuarios dar descripciones a las secciones subrayadas de la pieza de código, tan especificas como sea necesario, con el objetivo de brindar y obtener información de cada parte del ella. La denominada 'Lista de ingredientes' permite resaltar en el código cada descripción realizada. Los usuarios registrados también tienen la posibilidad de realizar comentarios y calificar la pieza de código. También existe un panel que permite a los usuarios acceder a piezas de código relacionadas con la actual.",
-            "image": "/Images/findcode8.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "3",
-            "type": "2",
-            "title": "Registro",
-            "decription": "Permite que los usuarios se registren en la aplicación para acceder a la funcionalidad completa por medio de un nombre, un correo electrónico, un nombre de usuario y una contraseña.",
-            "image": "/Images/findcode9.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "2",
-            "type": "1",
-            "title": "Fichas de un usuario registrado",
-            "decription": "Los usuarios registrados poseen una pantalla en la cual pueden consultar las piezas de código que han creado. También tienen la posibilidad de editar sus fichas existentes, crear nuevas fichas y editar su información personal.",
-            "image": "/Images/findcode10.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "1",
-            "type": "2",
-            "title": "Crear ficha",
-            "decription": "Los usuarios registrados pueden crear sus propias fichas de código especificado el lenguaje en el cual será escrito, el nombre, una descripción general de lo que hace el código y la pieza de código como tal. Adicional a ello se pueden realizar descripciones iniciales de fragmentos del código subrayados.",
-            "image": "/Images/findcode11.png"
-        }
-    },
-    {
-        "type": "description-image",
-        "info": {
-            "theme": "3",
-            "type": "1",
-            "title": "Editar información de usuario",
-            "decription": "Los usuarios registrados pueden fácilmente cambiar sus datos personales registrados (a excepción del nombre de usuario) y también pueden eliminar su cuenta si es necesario.",
-            "image": "/Images/findcode12.png"
-        }
-    },
-    {
-        "type": "title",
-        "info": {
-            "theme": "5",
-            "title": "Proceso de creación"
-        }
-    },
-    {
-        "type": "description-images",
-        "info": {
-            "theme": "2",
-            "title": "Planeación",
-            "decription": "",
-            "subtitles": [
-                "Identificación",
-                "Descripción",
-                "Formalización"
-            ],
-            "subdescriptions": [
-                "Esta aplicación se creó enfocada a aplicar los conocimientos aprendidos en la materia de programación orientada a objetos. Por lo tanto se pensó en una problemática en la cual se pudieran aplicar estos conceptos. El problema que se decidió abordar para tal fin fue la dificultad de los programadores para comprender las piezas de código de otros.",
-                "Como solución se planteó una aplicación en la cual los usuarios pudieran comentar gráficamente las piezas de código. Esto con el objetivo de obtener descripciones detalladas de cada fragmento de cada pieza localizadas en el propio cogido y también para que toda la comunidad pudiera alimentar esta información.",
-                "Se identificaron requisitos funcionales y no funcionales, orientados a solucionar esta problemática, tales como; permitir que los usuarios puedan encontrar piezas de código de un lenguaje en específico por medio de un buscador, permitir que los usuarios puedan dar descripciones a fragmentos de las piezas de código de otros usuarios, permitir que los usuarios registrados puedan almacenar sus propias piezas de código o utilizar JAVA SE como lenguaje de programación."
-            ],
-            "images": [
-                "/Images/quicklist63.jpg",
-                "/Images/quicklist64.jpg",
-                "/Images/quicklist65.jpg"
-            ]
-        }
-    },
-    {
-        "type": "description-images",
-        "info": {
-            "theme": "1",
-            "title": "Diseño",
-            "decription": "",
-            "subtitles": [
-                "Arquitectura",
-                "Detalle",
-                "Interfaz"
-            ],
-            "subdescriptions": [
-                "Se definieron dos componentes esenciales para el desarrollo del software los cuales fueron: una aplicación de escritorio independiente del sistema operativo, una base de datos externa a la aplicación almacenada en un servidor e implementado en un hosting Web. También e estableció el MVC (Modelo - Vista - Controlador) como arquitectura de software pensando en estructurar un sistema de información bastante complejo.",
-                "Se realizó todo el moldeamiento UML de la aplicación en donde se diseñaron los siguientes diagramas: Actividades, Clases, Objetos, Componentes, Despliegue, flujo de datos, navegación, navegación gráfico y paquetes. También se realizó una matriz de procesos versus organización para relacionar las funcionalidades con los procesos de la organización. Se realizó otra matriz de procesos versus entidades para determinar que procesos corresponden a cada rol. Por ultimo se realizó un informe técnico de diseño.",
-                "Empleando una herramienta llamada Balsamiq Mockups fue posible crear un diseño básico de las pantallas que contendría la aplicación, se asociaron todas las entradas y salidas identificadas en los requerimientos y también se estableció el flujo a través de las pantallas, estos Mockups fueron modificados posteriormente directamente a través del modo de programación gráfico de NetBeans."
-            ],
-            "images": [
-                "/Images/quicklist59.jpg",
-                "/Images/findcode13.png",
-                "/Images/findcode14.png"
-            ]
-        }
-    },
-    {
-        "type": "description-images",
-        "info": {
-            "theme": "3",
-            "title": "Desarrollo",
-            "decription": "",
-            "subtitles": [
-                "Lenguajes",
-                "Entorno y tecnologías",
-                "Control"
-            ],
-            "subdescriptions": [
-                "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó MySQL como lenguaje gestor de bases de datos para almacenar la información relacionada.",
-                "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y el entorno gráfico para realizar las pantallas. También se hizo uso de XAMPP para implementar un servidor de MySQL con el phpMyAdmin. Por ultimo se utilizó GitHub Desktop para crear repositorios gráficamente.",
-                "Como herramienta de control de versiones y para poder dividir adecuadamente las tareas a realizar se empleó GitHub. Se creó una rama de desarrollo sobre el Master y en esta rama se crearon otras dos ramas para que los dos desarrolladores pudieran realizar sus tareas sin complicaciones de integración posterior."
-            ],
-            "images": [
-                "/Images/findcode17.jpeg",
-                "/Images/findcode15.png",
-                "/Images/quicklist69.png"
-            ]
-        }
-    },
-    {
-        "type": "description-images",
-        "info": {
-            "theme": "2",
-            "title": "Pruebas",
-            "decription": "",
-            "subtitles": [
-                "Planeación",
-                "Ejecución",
-                "Verificación"
-            ],
-            "subdescriptions": [
-                "Se determinó dividir las pruebas en dos partes. Las pruebas que verifican el cumplimiento de los requerimientos y las pruebas de validación.",
-                "Se tomó cada requerimiento y se comprobó su existencia en la aplicación. Posteriormente se realizaron diferentes casos de prueba por cada requerimiento desarrollado. También se tomó cada entrada de las pantallas y se verificaron las validaciones apropiadas.",
-                "Se tomaron los resultados de las pruebas y se analizaron con los datos esperados. Los requerimientos y las validaciones que no fueron validas se volvieron a modificar hasta que eventualmente todos los requerimientos fueron aceptados."
-            ],
-            "images": [
-                "/Images/quicklist70.png",
-                "/Images/findcode16.png",
-                "/Images/quicklist71.jpg"
-            ]
-        }
-    },
-    {
-        "type": "description",
-        "info": {
-            "theme": "1",
-            "title": "Opinión",
-            "decription": "Al desarrollar este proyecto me pude dar cuenta de la utilidad tan inmensa de la programación orientada a objetos, ya que esta me permitió dar una forma mas intuitiva a las aplicaciones, asociando estructuras de código con elementos del mundo real. Hubieron algunos inconvenientes tales como la asociación de las descripciones con la localización en el código o la sintaxis de un lenguaje de programación en específico. Sin embargo considero que con este proyecto adquirí unas bases lo suficientemente solidas para desarrollar software con el paradigma orientado a objetos ademas de como conectar JAVA con MySQL y trabajar mas a fondo con la GUI de JAVA."
-        }
+  {
+    "type": "presentation",
+    "info": {
+      "theme": "5",
+      "title": "FindCode",
+      "decription": "Una mejor manera de entender el código",
+      "authors": ["Cesar Augusto Torres Ardila", "Enderson Gonzalo Díaz Muñoz"]
     }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "3",
+      "type": "2",
+      "title": "¿Qué es?",
+      "decription": "¿Alguna vez te has visto en inconvenientes al tratar de analizar el código de otra persona? ¿Has necesitado de alguna pieza de código en específico? o ¿Has querido almacenar tus códigos de forma organizada? <br> FindCode es una aplicación diseñada para la comunidad de programadores con el objetivo de almacenar y organizar piezas de código y permitirle a los usuarios documentar gráficamente sus piezas de código y las de otros usuarios.",
+      "image": "/Images/findcode1.png"
+    }
+  },
+  {
+    "type": "images",
+    "info": {
+      "theme": "2",
+      "title": "Vista general",
+      "decription": "",
+      "images": [
+        "/Images/findcode2.png",
+        "/Images/findcode3.png",
+        "/Images/findcode4.png",
+        "/Images/findcode5.png"
+      ]
+    }
+  },
+  {
+    "type": "characteristics",
+    "info": {
+      "theme": "1",
+      "title": "Características del proyecto",
+      "decription": "Proyecto final desarrollado para la materia de Programación orientada a objetos de la Universidad Nacional de Colombia.",
+      "subtitles": [
+        "Equipo:",
+        "Tipo:",
+        "Arquitectura:",
+        "Lenguajes:",
+        "Tecnologías:"
+      ],
+      "subdescriptions": [
+        "<b>Cesar Augusto Torres Ardilla</b>. Tecnólogo en Análisis y desarrollo de Sistemas de información del Servicio Nacional de Aprendizaje (SENA). Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia. <br><b>Enderson Gonzalo Díaz Muñoz</b>. Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia.",
+        "Aplicación de escritorio",
+        "MVC (Modelo - Vista - Controlador)",
+        "Java SE<br>MySQL",
+        "Swing"
+      ]
+    }
+  },
+  {
+    "type": "title",
+    "info": {
+      "theme": "5",
+      "title": "Funcionamiento"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "3",
+      "type": "1",
+      "title": "Inicio",
+      "decription": "Permite buscar las piezas de código que se necesiten especificando el lenguaje en el cual se desea buscar. También permite iniciar sesión con una cuenta ya registrada para acceder a mayores funcionalidades o ir a la pantalla de registro.",
+      "image": "/Images/findcode6.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "2",
+      "type": "2",
+      "title": "Resultado de la búsqueda",
+      "decription": "La aplicación busca en la base de datos todas las coincidencias y las muestra en una lista seleccionable con el nombre y la descripción de cada pieza de código. El algoritmo ordena los resultados según la calificación de cada una.",
+      "image": "/Images/findcode7.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "1",
+      "type": "1",
+      "title": "Descripción de la ficha",
+      "decription": "Muestra el nombre, la descripción, el lenguaje y la pieza de código seleccionada. Adicional a ello, la aplicación permite a los usuarios dar descripciones a las secciones subrayadas de la pieza de código, tan especificas como sea necesario, con el objetivo de brindar y obtener información de cada parte del ella. La denominada 'Lista de ingredientes' permite resaltar en el código cada descripción realizada. Los usuarios registrados también tienen la posibilidad de realizar comentarios y calificar la pieza de código. También existe un panel que permite a los usuarios acceder a piezas de código relacionadas con la actual.",
+      "image": "/Images/findcode8.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "3",
+      "type": "2",
+      "title": "Registro",
+      "decription": "Permite que los usuarios se registren en la aplicación para acceder a la funcionalidad completa por medio de un nombre, un correo electrónico, un nombre de usuario y una contraseña.",
+      "image": "/Images/findcode9.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "2",
+      "type": "1",
+      "title": "Fichas de un usuario registrado",
+      "decription": "Los usuarios registrados poseen una pantalla en la cual pueden consultar las piezas de código que han creado. También tienen la posibilidad de editar sus fichas existentes, crear nuevas fichas y editar su información personal.",
+      "image": "/Images/findcode10.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "1",
+      "type": "2",
+      "title": "Crear ficha",
+      "decription": "Los usuarios registrados pueden crear sus propias fichas de código especificado el lenguaje en el cual será escrito, el nombre, una descripción general de lo que hace el código y la pieza de código como tal. Adicional a ello se pueden realizar descripciones iniciales de fragmentos del código subrayados.",
+      "image": "/Images/findcode11.png"
+    }
+  },
+  {
+    "type": "description-image",
+    "info": {
+      "theme": "3",
+      "type": "1",
+      "title": "Editar información de usuario",
+      "decription": "Los usuarios registrados pueden fácilmente cambiar sus datos personales registrados (a excepción del nombre de usuario) y también pueden eliminar su cuenta si es necesario.",
+      "image": "/Images/findcode12.png"
+    }
+  },
+  {
+    "type": "title",
+    "info": {
+      "theme": "5",
+      "title": "Proceso de creación"
+    }
+  },
+  {
+    "type": "description-images",
+    "info": {
+      "theme": "2",
+      "title": "Planeación",
+      "decription": "",
+      "subtitles": ["Identificación", "Descripción", "Formalización"],
+      "subdescriptions": [
+        "Esta aplicación se creó enfocada a aplicar los conocimientos aprendidos en la materia de programación orientada a objetos. Por lo tanto se pensó en una problemática en la cual se pudieran aplicar estos conceptos. El problema que se decidió abordar para tal fin fue la dificultad de los programadores para comprender las piezas de código de otros.",
+        "Como solución se planteó una aplicación en la cual los usuarios pudieran comentar gráficamente las piezas de código. Esto con el objetivo de obtener descripciones detalladas de cada fragmento de cada pieza localizadas en el propio cogido y también para que toda la comunidad pudiera alimentar esta información.",
+        "Se identificaron requisitos funcionales y no funcionales, orientados a solucionar esta problemática, tales como; permitir que los usuarios puedan encontrar piezas de código de un lenguaje en específico por medio de un buscador, permitir que los usuarios puedan dar descripciones a fragmentos de las piezas de código de otros usuarios, permitir que los usuarios registrados puedan almacenar sus propias piezas de código o utilizar JAVA SE como lenguaje de programación."
+      ],
+      "images": [
+        "/Images/quicklist63.jpg",
+        "/Images/quicklist64.jpg",
+        "/Images/quicklist65.jpg"
+      ]
+    }
+  },
+  {
+    "type": "description-images",
+    "info": {
+      "theme": "1",
+      "title": "Diseño",
+      "decription": "",
+      "subtitles": ["Arquitectura", "Detalle", "Interfaz"],
+      "subdescriptions": [
+        "Se definieron dos componentes esenciales para el desarrollo del software los cuales fueron: una aplicación de escritorio independiente del sistema operativo, una base de datos externa a la aplicación almacenada en un servidor e implementado en un hosting Web. También e estableció el MVC (Modelo - Vista - Controlador) como arquitectura de software pensando en estructurar un sistema de información bastante complejo.",
+        "Se realizó todo el moldeamiento UML de la aplicación en donde se diseñaron los siguientes diagramas: Actividades, Clases, Objetos, Componentes, Despliegue, flujo de datos, navegación, navegación gráfico y paquetes. También se realizó una matriz de procesos versus organización para relacionar las funcionalidades con los procesos de la organización. Se realizó otra matriz de procesos versus entidades para determinar que procesos corresponden a cada rol. Por ultimo se realizó un informe técnico de diseño.",
+        "Empleando una herramienta llamada Balsamiq Mockups fue posible crear un diseño básico de las pantallas que contendría la aplicación, se asociaron todas las entradas y salidas identificadas en los requerimientos y también se estableció el flujo a través de las pantallas, estos Mockups fueron modificados posteriormente directamente a través del modo de programación gráfico de NetBeans."
+      ],
+      "images": [
+        "/Images/quicklist59.jpg",
+        "/Images/findcode13.png",
+        "/Images/findcode14.png"
+      ]
+    }
+  },
+  {
+    "type": "description-images",
+    "info": {
+      "theme": "3",
+      "title": "Desarrollo",
+      "decription": "",
+      "subtitles": ["Lenguajes", "Entorno y tecnologías", "Control"],
+      "subdescriptions": [
+        "Se empleó JAVA SE como lenguaje de programación para desarrollar la aplicación de escritorio. Se utilizó MySQL como lenguaje gestor de bases de datos para almacenar la información relacionada.",
+        "Se utilizó NetBeans IDE para poder manejar JAVA con completamiento de código y el entorno gráfico para realizar las pantallas. También se hizo uso de XAMPP para implementar un servidor de MySQL con el phpMyAdmin. Por ultimo se utilizó GitHub Desktop para crear repositorios gráficamente.",
+        "Como herramienta de control de versiones y para poder dividir adecuadamente las tareas a realizar se empleó GitHub. Se creó una rama de desarrollo sobre el Master y en esta rama se crearon otras dos ramas para que los dos desarrolladores pudieran realizar sus tareas sin complicaciones de integración posterior."
+      ],
+      "images": [
+        "/Images/findcode17.jpeg",
+        "/Images/findcode15.png",
+        "/Images/quicklist69.png"
+      ]
+    }
+  },
+  {
+    "type": "description-images",
+    "info": {
+      "theme": "2",
+      "title": "Pruebas",
+      "decription": "",
+      "subtitles": ["Planeación", "Ejecución", "Verificación"],
+      "subdescriptions": [
+        "Se determinó dividir las pruebas en dos partes. Las pruebas que verifican el cumplimiento de los requerimientos y las pruebas de validación.",
+        "Se tomó cada requerimiento y se comprobó su existencia en la aplicación. Posteriormente se realizaron diferentes casos de prueba por cada requerimiento desarrollado. También se tomó cada entrada de las pantallas y se verificaron las validaciones apropiadas.",
+        "Se tomaron los resultados de las pruebas y se analizaron con los datos esperados. Los requerimientos y las validaciones que no fueron validas se volvieron a modificar hasta que eventualmente todos los requerimientos fueron aceptados."
+      ],
+      "images": [
+        "/Images/quicklist70.png",
+        "/Images/findcode16.png",
+        "/Images/quicklist71.jpg"
+      ]
+    }
+  },
+  {
+    "type": "description",
+    "info": {
+      "theme": "1",
+      "title": "Opinión",
+      "decription": "Al desarrollar este proyecto me pude dar cuenta de la utilidad tan inmensa de la programación orientada a objetos, ya que esta me permitió dar una forma mas intuitiva a las aplicaciones, asociando estructuras de código con elementos del mundo real. Hubieron algunos inconvenientes tales como la asociación de las descripciones con la localización en el código o la sintaxis de un lenguaje de programación en específico. Sin embargo considero que con este proyecto adquirí unas bases lo suficientemente solidas para desarrollar software con el paradigma orientado a objetos ademas de como conectar JAVA con MySQL y trabajar mas a fondo con la GUI de JAVA."
+    }
+  }
 ]

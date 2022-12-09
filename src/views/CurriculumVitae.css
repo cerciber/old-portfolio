@@ -1,0 +1,21 @@
+.curriculum-vitae {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.document {
+  width: 90%;
+  height: 90%;
+  border: solid 3px #0da15d;
+  background-color: #0da15d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+}

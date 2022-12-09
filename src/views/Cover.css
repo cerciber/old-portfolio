@@ -1,0 +1,231 @@
+.cover {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  outline: solid 3px #0da15d;
+  background-color: #0da15d;
+  overflow: hidden;
+  position: absolute;
+}
+.cover-show {
+  animation-name: cover-animation-in;
+  animation-duration: 1s;
+  transform: translate(0%, 0%);
+}
+.cover-hide {
+  animation-name: cover-animation-out;
+  animation-duration: 1s;
+  transform: translate(0%, calc(-100% + 47px));
+}
+@keyframes cover-animation-in {
+  0% {
+    transform: translate(0%, calc(-100% + 47px));
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes cover-animation-out {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(0%, calc(-100% + 47px));
+  }
+}
+.cover-information {
+  background: rgb(1, 155, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 155, 93, 1) 0%,
+    rgba(107, 229, 85, 1) 74%
+  );
+  width: 100%;
+  height: calc(50% - 25px);
+  display: flex;
+}
+.cover-information-text {
+  width: 50%;
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 5%;
+  margin-right: -5%;
+  font-style: italic;
+  transition: transform 0.5s;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+}
+.cover-information-text:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.cover-information-triangle-cover {
+  width: 50%;
+  height: 100%;
+}
+.cover-information-triangle {
+  fill: #0da15d;
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+.cover-links {
+  background-color: #fffceb;
+  width: 50%;
+  height: calc(50% - 25px);
+  overflow: hidden;
+}
+.cover-link {
+  height: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px #0da15d;
+  border-right: solid 3px #0da15d;
+  overflow: hidden;
+}
+.cover-link-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease-out;
+  padding-left: 30%;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+  cursor: pointer;
+}
+.cover-link-content:hover {
+  background-color: #ffffff;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.cover-link-icon {
+  font-size: 150px;
+}
+.cover-slogan {
+  background-color: #e5ff98;
+  width: 50%;
+  height: calc(50% - 25px);
+  width: 50%;
+  text-align: center;
+}
+.cover-photo-frame {
+  background-color: #fffceb;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 4px #e5ff9a;
+  margin-top: -250px;
+  margin-left: calc(50% - 150px);
+  transition: transform 2s;
+}
+.cover-photo-frame:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.cover-photo {
+  margin-top: -18%;
+  margin-left: 0%;
+  height: 135%;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+}
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.cover-user-information {
+  height: 50%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.cover-name {
+  font-family: "Spartan";
+  font-size: 30px;
+  transition: transform 0.5s;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+}
+.cover-name:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.cover-slogan-text {
+  font-family: "Lato";
+  font-size: 20px;
+  transition: transform 0.5s;
+  animation-name: opacity-animation;
+  animation-duration: 2s;
+}
+.cover-slogan-text:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.cover-bottom {
+  background-color: #0da15d;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: app-animation;
+  animation-duration: 1s;
+  transition: all 0.5s ease-out;
+}
+.cover-bottom:hover {
+  cursor: pointer;
+  background-color: #3bc458;
+}
+.cover-bottom-button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: cover-bottom-button-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes cover-bottom-button-animation {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
